@@ -1,17 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+<ion-header [translucent]="true" no-border>
+  <button (click)='AbrirMenu()'>
+    <ion-icon name="menu-outline" class="hamburger" ></ion-icon>
+  </button>
+  
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-menu side="start" menuId="first" contentId="main1">
+    <div class="header-menu"></div>
+    <div class="header-content-menu">
+      <img src="../../assets/fotos_Uni/logo.png" alt="">
+      <ion-label>
+        <h2>Servicios Universitarios</h2>
+        <p>Lorem ipsumi</p>
+      </ion-label>
+    </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-content>
+      <ion-list>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
 </ion-content>
