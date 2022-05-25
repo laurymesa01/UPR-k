@@ -1,5 +1,6 @@
 import { OnInit } from '@angular/core';
 import { Component } from '@angular/core';
+import { NewsResponse } from '../interfaces';
 
 import { NewsService } from '../services/news.service';
 
@@ -9,23 +10,36 @@ import { NewsService } from '../services/news.service';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page
-implements OnInit{
-  lateralbar=["Noticias","Eventos","Investigaciones"]
+  implements OnInit{
+ 
+  lateralbar = ["Noticias", "Eventos", "Investigaciones"]
+  public posts:NewsResponse[]=[]
 
   constructor(private newservice:NewsService) { }
   
   
   ngOnInit() {
-    this.newservice.getTopHeadLines().subscribe(resp =>
-    {
-      console.log(resp);
-      console.log("estoy");
-      
+    this.newservice.getTopHeadLines().subscribe(res => {
+      this.posts.push(res);
+     
     }
-    )
+      )
+   
+    console.log(this.posts);
+    
+  }
+  segmentChange(category: string) {
+    console.log(category);
+    
   }
 
-  
+  loadData(event: any) {
+   /*  this.newservice.getTopHeadLines().subscribe(res => {this.posts= }
+     )
+    console.log(event);
+     */
+    
+  }
 
 }
 

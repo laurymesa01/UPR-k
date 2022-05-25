@@ -1,34 +1,72 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" mode="ios" class="ion-no-border">
   <ion-toolbar>
-    <ion-searchbar placeholder="Buscar" animated >
+    <ion-searchbar mode="ios"
+    placeholder="Buscar" animated >
 
     </ion-searchbar>
+    
   </ion-toolbar>
+  <ion-toolbar  mode="ios">
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="6" size-xs="12">
+        <ion-segment mode="ios" scrollable (ionChange)="segmentChange($event)">
+          <ion-segment-button *ngFor="let item of lateralbar" [value]="item">
+            <ion-label  size ="6"size-lg="2" size-md="4" size-xs="6" class="ion-text-capitalize">{{item}}</ion-label>
+          </ion-segment-button>
+  
+        </ion-segment>
+  
+  
+      </ion-col>
+  
+    </ion-row>
+  
+  </ion-grid>
+</ion-toolbar>
 </ion-header>
 
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-   
+<ion-content  [fullscreen]="true">
+  <ion-header collapse="condense" mode ="ios"class="ion-no-border" >
+<ion-toolbar>
+  <ion-title>Noticias</ion-title>
+</ion-toolbar>
+
   </ion-header>
-<ion-grid fixed>
+
+
+
+<ion-grid >
   <ion-row>
-    <ion-col size="12">
-      <ion-segment scrollable >
-        <ion-segment-button *ngFor="let item of lateralbar" value="{{item}}"
-       
-        >
-          <ion-label>{{item}}</ion-label>
-        </ion-segment-button>
-       
-      </ion-segment>
-  
+    <ion-col *ngFor="let item of posts[0]"  >
+     
+        <ion-card >
+          <ion-card-header>
+<ion-card-title size=large class="ion-margin ion-padding-horizontal ion-margin-buttom">{{item.title.rendered}}
+</ion-card-title>
+<ion-img [src]="item.jetpack_featured_media_url"></ion-img>
+<ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p>{{item.excerpt.rendered.innerHTML}}</p>
+          </ion-card-content>
+ 
+
+   
+        </ion-card>
+
     </ion-col>
-    
-    
+
   </ion-row>
 
-
 </ion-grid>
-  
+<ion-infinite-scroll threshold="25%" 
+position="bottom" 
+(ionInfinite)="loadData($event)">
+  <ion-infinite-scroll-content loadingSpinner="bubbles"
+   loadingText="Loading more data...">
+  </ion-infinite-scroll-content>
+</ion-infinite-scroll>
+
 </ion-content>
