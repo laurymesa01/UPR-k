@@ -110,3 +110,13 @@ export enum StatusEnum {
 export enum Type {
     Post = "post",
 }
+
+
+//interfaz para tener el contenido por separado
+export interface ContentbyType{
+    [key: string]: {
+        page: number
+        posts:NewsResponse[]
+    }
+
+}

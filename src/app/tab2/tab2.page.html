@@ -1,3 +1,4 @@
+
 <ion-header [translucent]="true" mode="ios" class="ion-no-border">
   <ion-toolbar>
     <ion-searchbar mode="ios"
@@ -30,7 +31,7 @@
 <ion-content  [fullscreen]="true">
   <ion-header collapse="condense" mode ="ios"class="ion-no-border" >
 <ion-toolbar>
-  <ion-title>Noticias</ion-title>
+  <ion-title>{{selectedCategory}}</ion-title>
 </ion-toolbar>
 
   </ion-header>
@@ -43,20 +44,25 @@
      
         <ion-card >
           <ion-card-header>
-<ion-card-title size=large class="ion-margin ion-padding-horizontal ion-margin-buttom">{{item.title.rendered}}
+<ion-card-title size=large class="ion-margin ion-padding-horizontal ion-margin-buttom" [innerHTML]="item.title.rendered">
 </ion-card-title>
 <ion-img [src]="item.jetpack_featured_media_url"></ion-img>
 <ion-card-subtitle></ion-card-subtitle>
           </ion-card-header>
           <ion-card-content>
-            <p>{{item.excerpt.rendered.innerHTML}}</p>
+            <div [innerHTML]="item.excerpt.rendered">
+
+
+            </div >
+           
+           
           </ion-card-content>
  
 
    
         </ion-card>
 
-    </ion-col>
+    </ion-col >
 
   </ion-row>
 
