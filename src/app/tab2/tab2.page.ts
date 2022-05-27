@@ -13,11 +13,13 @@ export class Tab2Page
   implements OnInit {
  
   lateralbar = ["Noticias", "Eventos", "Investigaciones"]
-  public posts:NewsResponse [] = []
+  public posts: NewsResponse[][] = []
+  
+  
   public events: NewsResponse[] = []
   public investigations: NewsResponse[] = []
-  public tempposts: NewsResponse[] = []
-   cont:number = 1;
+  public tempposts: NewsResponse[][] = []
+   page:number = 0;
   
   selectedCategory:string=this.lateralbar[0]
 
@@ -25,10 +27,12 @@ export class Tab2Page
   
   
   ngOnInit() {
+     this.page++;
     this.newservice.getTopHeadbyContent(1).subscribe(res => {
-      console.log(res);
+      console.log("res====", res);
+     
       
-      this.posts.push(res);
+      this.posts = [res];
       
        console.log(this.posts[0])
       this.tempposts=this.posts
@@ -46,13 +50,13 @@ export class Tab2Page
       this.selectedCategory=category.detail.value
     if (this.selectedCategory === this.lateralbar[1]) {
       this
-        .newservice.getTopHeadLinesEvent().subscribe(res => { this.posts = this.events })
+        .newservice.getTopHeadLinesEvent().subscribe(res => { this.posts[0] = this.events })
       
   
     }
     if (this.selectedCategory === this.lateralbar[2]) {
       this
-      .newservice.getTopHeadLinesEvent().subscribe(res=>{this.posts=this.investigations})
+      .newservice.getTopHeadLinesEvent().subscribe(res=>{this.posts[0]=this.investigations})
   
     }
     if (this.selectedCategory === this.lateralbar[0]) {
@@ -67,29 +71,52 @@ export class Tab2Page
 
   loadData(event: any) {
     
+    setTimeout(() => {
+      
     
-    this.newservice.getTopHeadbyContent(this.cont).subscribe(res => {
-      this.posts.push(res)
-      console.log(this.posts);
-      
-      
-      
-    console.log(res);
-    }
      
-    ) 
-     this.cont++;
-    console.log(this.cont);
-    
-     console.log(event);
+      event.target.complete();
+      console.log(this.page);
+      
+      if (event.target.position === "top"&&this.page>1) {
+        
+     /*    this.page--;
+        console.log("pagina",this.page);
+        
+         */
+
+      } else if (event.target.position === "bottom") {
+        this.page++;
+        
+      }
+            this.newservice.getTopHeadbyContent(this.page).subscribe(res => {
+      this.posts.push(res);
+              console.log(this.posts);
+              console.log("lengt",this.posts.length );
+              
+     
+      if (this.posts.length = 5) {
+  
+         console.log("es menor");
+         this.posts.splice(0, 1)
+        console.log(this.posts);
+        
+
+        
+      }
  
+    }
+      
+ ) 
+
+      if (this.posts.length === 2) {
+        event.target.disabled = true;
+      }
+    }, 500);
     
+   
+
   }
   
-
-
-
-
-
 
 }

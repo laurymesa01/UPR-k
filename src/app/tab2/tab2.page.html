@@ -28,20 +28,25 @@
 </ion-header>
 
 
+
+
 <ion-content  [fullscreen]="true">
+
   <ion-header collapse="condense" mode ="ios"class="ion-no-border" >
 <ion-toolbar>
   <ion-title>{{selectedCategory}}</ion-title>
 </ion-toolbar>
 
   </ion-header>
-
-
+<ion-infinite-scroll threshold="10%" position="top" (ionInfinite)="loadData($event)">
+  <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
+  </ion-infinite-scroll-content>
+</ion-infinite-scroll>
 
 <ion-grid >
   <ion-row>
-    <ion-col *ngFor="let item of posts[0]"  >
-     
+    <ng-container *ngFor="let post of posts">
+    <ion-col *ngFor="let item of post">
         <ion-card >
           <ion-card-header>
 <ion-card-title size=large class="ion-margin ion-padding-horizontal ion-margin-buttom" [innerHTML]="item.title.rendered">
@@ -62,7 +67,8 @@
    
         </ion-card>
 
-    </ion-col >
+    </ion-col  >
+    </ng-container>
 
   </ion-row>
 

@@ -15,9 +15,9 @@ export class NewsService {
   ) { }
   
   
-  getTopHeadbyContent(page: number = 0): Observable<NewsResponse> {
+  getTopHeadbyContent(page: number = 0): Observable<NewsResponse[]> {
 
-    return this.http.get<NewsResponse>(`https://noticias.upr.edu.cu/wp-json/wp/v2/posts?page=${page}`).pipe()
+    return this.http.get<NewsResponse[]>(`https://noticias.upr.edu.cu/wp-json/wp/v2/posts?page=${page}`).pipe()
 
   }
   getTopHeadLinesEvent() {
@@ -26,7 +26,7 @@ export class NewsService {
   
   
    
-  byContent(content: string): Observable<NewsResponse> {
+  byContent(content: string): Observable<NewsResponse[]> {
     if (!Object.keys(this.contentbyType).includes(content)) {
       this.contentbyType[content] = {
         page: 0,
