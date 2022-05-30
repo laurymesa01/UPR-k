@@ -9,13 +9,14 @@ import { Observable } from 'rxjs';
 })
 export class NewsService {
   private contentbyType: ContentbyType = {}
+  public response:NewsResponse[][] = []
  
 
   constructor(private http: HttpClient
   ) { }
   
   
-  getTopHeadbyContent(page: number = 0): Observable<NewsResponse[]> {
+  getNews(page: number = 0): Observable<NewsResponse[]> {
 
     return this.http.get<NewsResponse[]>(`https://noticias.upr.edu.cu/wp-json/wp/v2/posts?page=${page}`).pipe()
 
@@ -26,21 +27,4 @@ export class NewsService {
   
   
    
-  byContent(content: string): Observable<NewsResponse[]> {
-    if (!Object.keys(this.contentbyType).includes(content)) {
-      this.contentbyType[content] = {
-        page: 0,
-        posts: []
-        
-      }
-      
-  
-    
-    
-      const page = this.contentbyType[content].page + 1;
-
-      return this.getTopHeadbyContent(page);
-
-    }
-  }
 }

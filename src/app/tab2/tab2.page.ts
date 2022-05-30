@@ -13,7 +13,7 @@ export class Tab2Page
   implements OnInit {
  
   lateralbar = ["Noticias", "Eventos", "Investigaciones"]
-  public posts: NewsResponse[][] = []
+  public response: NewsResponse[][] = []
   
   
   public events: NewsResponse[] = []
@@ -27,42 +27,36 @@ export class Tab2Page
   
   
   ngOnInit() {
+   
      this.page=1;
-    this.newservice.getTopHeadbyContent(this.page).subscribe(res => {
+    this.newservice.getNews(this.page).subscribe(res => {
       console.log("res====", res);
      
       
-      this.posts = [res];
-      
-    
-      this.tempposts=this.posts
+      this.newservice.response = [res];
+       this.response=this.newservice.response
+            this.tempposts=this.response
 
     }
     )
-   
-
-    
+ 
   }
-  
 
 //cambiar la vista en dependencia de la barra de navegacion
   segmentChange(category: any) {
       this.selectedCategory=category.detail.value
+    if (this.selectedCategory === this.lateralbar[0]) {
+   this.response=this.newservice.response
+ }
     if (this.selectedCategory === this.lateralbar[1]) {
-      this
-        .newservice.getTopHeadLinesEvent().subscribe(res => { this.posts[0] = this.events })
-      
+     
+      this.response=[]
+     
   
     }
     if (this.selectedCategory === this.lateralbar[2]) {
-      this
-      .newservice.getTopHeadLinesEvent().subscribe(res=>{this.posts[0]=this.investigations})
-  
-    }
-    if (this.selectedCategory === this.lateralbar[0]) {
-      
-      this.posts=this.tempposts
-      
+     this.response=[]
+     
   
    }
  console.log(category.detail.value);
@@ -76,28 +70,16 @@ export class Tab2Page
 
       event.target.complete();
       this.page++
-    this.newservice.getTopHeadbyContent(this.page).subscribe(res => {
-      this.posts.push(res);
-              console.log(this.posts);
-              console.log("lengt",this.posts.length );
-              
-     
-     /*  if (this.posts.length = 5) {
-  
-         console.log("es menor");
-         this.posts.splice(0, 1)
-        console.log(this.posts);
-        
-
-        
-      } */
- 
-    }
+    this.newservice.getNews(this.page).subscribe(res => {
+      this.response.push(res);
+       this.newservice.response=this.response
+              console.log(this.response);
+              console.log("lengt",this.response.length );
+ }
       
  ) 
-         
 
-      if (this.posts[this.posts.length-1]===[]  ) {
+      if (this.response[this.response.length-1]===[]  ) {
         event.target.disabled = true;
       }
     }, 500);
