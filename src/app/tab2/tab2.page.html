@@ -13,7 +13,7 @@
       <ion-col size="12" size-lg="3" size-md="6" size-xs="12">
         <ion-segment mode="ios" scrollable (ionChange)="segmentChange($event)">
           <ion-segment-button *ngFor="let item of lateralbar" [value]="item">
-            <ion-label  size ="6"size-lg="2" size-md="4" size-xs="6" class="ion-text-capitalize">{{item}}</ion-label>
+            <ion-label  size ="6"size-lg="0,5" size-md="4" size-xs="6" class="ion-text-capitalize">{{item}}</ion-label>
           </ion-segment-button>
   
         </ion-segment>
@@ -38,10 +38,7 @@
 </ion-toolbar>
 
   </ion-header>
-<ion-infinite-scroll threshold="10%" position="top" (ionInfinite)="loadData($event)">
-  <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
-  </ion-infinite-scroll-content>
-</ion-infinite-scroll>
+
 
 <ion-grid >
   <ion-row>
@@ -60,11 +57,12 @@
 
             </div >
            
-           
+       
           </ion-card-content>
  
 
-   
+<!--    <ion-footer class="ionfooter-card">{{item.date}}</ion-footer> -->
+  
         </ion-card>
 
     </ion-col  >

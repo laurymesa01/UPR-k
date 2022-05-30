@@ -27,14 +27,14 @@ export class Tab2Page
   
   
   ngOnInit() {
-     this.page++;
-    this.newservice.getTopHeadbyContent(1).subscribe(res => {
+     this.page=1;
+    this.newservice.getTopHeadbyContent(this.page).subscribe(res => {
       console.log("res====", res);
      
       
       this.posts = [res];
       
-       console.log(this.posts[0])
+    
       this.tempposts=this.posts
 
     }
@@ -70,32 +70,19 @@ export class Tab2Page
   }
 
   loadData(event: any) {
+  
     
     setTimeout(() => {
-      
-    
-     
-      event.target.complete();
-      console.log(this.page);
-      
-      if (event.target.position === "top"&&this.page>1) {
-        
-     /*    this.page--;
-        console.log("pagina",this.page);
-        
-         */
 
-      } else if (event.target.position === "bottom") {
-        this.page++;
-        
-      }
-            this.newservice.getTopHeadbyContent(this.page).subscribe(res => {
+      event.target.complete();
+      this.page++
+    this.newservice.getTopHeadbyContent(this.page).subscribe(res => {
       this.posts.push(res);
               console.log(this.posts);
               console.log("lengt",this.posts.length );
               
      
-      if (this.posts.length = 5) {
+     /*  if (this.posts.length = 5) {
   
          console.log("es menor");
          this.posts.splice(0, 1)
@@ -103,13 +90,14 @@ export class Tab2Page
         
 
         
-      }
+      } */
  
     }
       
  ) 
+         
 
-      if (this.posts.length === 2) {
+      if (this.posts[this.posts.length-1]===[]  ) {
         event.target.disabled = true;
       }
     }, 500);
