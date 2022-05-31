@@ -1,46 +1,59 @@
-<ion-header [translucent]="true" class="header-content">
-  <ion-toolbar>
-    <ion-title>Mi perfil</ion-title>
-  </ion-toolbar> 
-  <ion-card class="card-content">
-    <img src="" />
-    <ion-card-header>
-      <ion-card-subtitle></ion-card-subtitle>
-      <ion-card-title></ion-card-title>
-    </ion-card-header>
-  </ion-card>
-</ion-header>
+<ion-content scroll-y="true">
+  <div class="seccion-perfil-usuario">
+    <ion-header [translucent]="true" class="perfil-usuario-header">
+      <div  class="perfil-usuario-portada">
+        <div class="perfil-usuario-avatar">
+          <img src="../../assets/icon/favicon.png" />
+        </div>
+        </div>
+      </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-grid class="grid-content">
-    <div class="row-container">
-        <ion-row class="row1">
-            <ion-list>
-                <ion-item class="item" lines="none" button (click)="irNotas">
-                  <ion-label>Mis notas</ion-label>
-                  <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
-                </ion-item>
-                <ion-item class="item" lines="none" button (click)="irCorreo">
-                  <ion-label>Correo</ion-label>
-                  <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
-                </ion-item>
-              </ion-list>
-          </ion-row>
-    </div>
-    <div class="row-container">
-        <ion-row class="row2">
-            <ion-list>
-                <ion-item class="item" lines="none" button onclick="">
-                  <ion-label>Configuracion</ion-label>
-                  <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
-                </ion-item>
-                <ion-item class="item" lines="none" button onclick="">
-                  <ion-label>Datos y almacenamiento</ion-label>
-                  <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
-                </ion-item>
-              </ion-list>
-          </ion-row>
-    </div>
-    
-  </ion-grid>
+      <div class="perfil-usuario-body">
+        <div class="perfil-usuario-bio">
+          <ion-list>
+            <ion-item lines="none">
+              <ion-label class="titulo">
+                Laura Elena Mesa
+              </ion-label>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-label class="correo">
+                lemesa17@nauta.com.cu
+              </ion-label>
+            </ion-item>
+           </ion-list>
+        </div>
+        <div class="perfil-usuario-footer">
+          <ion-list class="lista">
+            <ion-item button (click)="buttonClick()" lines="none" class="button">
+              <ion-label>
+                Mis notas
+                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
+              </ion-label>
+            </ion-item>
+            <ion-item button (click)="buttonClick()" lines="none" class="button">
+              <ion-label>
+                Correo
+                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list class="lista">
+            <ion-item button (click)="buttonClick()" lines="none" class="button">
+              <ion-label>
+                Configuración
+                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
+              </ion-label>
+            </ion-item>
+            <ion-item button (click)="buttonClick()" lines="none" class="button">
+              <ion-label>
+                Datos y almacenamiento
+                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </div>
+      </div>
+  </div>
+
 </ion-content>
