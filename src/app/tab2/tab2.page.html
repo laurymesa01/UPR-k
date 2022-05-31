@@ -5,7 +5,7 @@
     placeholder="Buscar" animated >
 
     </ion-searchbar>
-    
+   
   </ion-toolbar>
   <ion-toolbar  mode="ios">
   <ion-grid fixed>
@@ -34,55 +34,21 @@
 
   <ion-header collapse="condense" mode ="ios" class="ion-no-border" >
 <ion-toolbar>
-  <ion-title class="categorytitle" size=large>{{selectedCategory}}</ion-title>
+  <ion-title class="categorytitle" >{{selectedCategory}}</ion-title>
 </ion-toolbar>
 
   </ion-header>
 
+ 
+<app-notice  *ngIf="selectedCategory == 'Noticias'">
 
-<ion-grid >
-  <ion-row>
-    <ng-container *ngFor="let post of response">
-    <ion-col *ngFor="let item of post">
-        <ion-card  [routerLink]="['/tabs/tab3']" mode="ios">
-          <ion-card-header>
-<ion-card-title size=large class="ion-margin ion-padding-horizontal ion-margin-buttom" [innerHTML]="item.title.rendered">
-</ion-card-title>
-<ion-img [src]="item.jetpack_featured_media_url"></ion-img>
-<ion-card-subtitle></ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <div [innerHTML]="item.excerpt.rendered">
-
-
-            </div >
-           
-       
-          </ion-card-content>
+</app-notice>
+  
  
 
-<!--    <ion-footer class="ionfooter-card">{{item.date}}</ion-footer> -->
-<ion-row>
-  <ion-col>
-    
-  </ion-col>
-  <ion-col>
-   
-  </ion-col>
-  <ion-col align-self-center text-center>
-    <ion-note>
-     {{item.date | date:'yyyy-MM-dd '}}
-    </ion-note>
-  </ion-col>
-</ion-row>
-        </ion-card>
+    <app-event  *ngIf="selectedCategory == 'Investigaciones'"></app-event>
+  
 
-    </ion-col  >
-    </ng-container>
-
-  </ion-row>
-
-</ion-grid>
 <ion-infinite-scroll threshold="25%" 
 position="bottom" 
 (ionInfinite)="loadData($event)">

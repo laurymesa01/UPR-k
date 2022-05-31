@@ -1,6 +1,6 @@
 
 
-export interface NewsResponse {
+export interface Notice {
     id:                         number;
     date:                       string;
     date_gmt:                   string;
@@ -116,7 +116,7 @@ export enum Type {
 export interface ContentbyType{
     [key: string]: {
         page: number
-        posts:NewsResponse[]
+        posts:Notice[]
     }
 
 }
