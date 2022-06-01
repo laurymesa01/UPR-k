@@ -4,8 +4,6 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
-
   <ion-menu side="start" menuId="first" contentId="main" mode="ios">
     <div class="header-menu"></div>
     <div class="header-content-menu">
@@ -18,7 +16,7 @@
     <ion-content>
       <ion-list lines="none">
         <ng-container *ngFor="let item of lista">
-          <ion-item [routerLink]="['{{item.direccion}}']">
+          <ion-item [routerLink]="['/telefonos']">
             <ion-avatar slot="start">
               <ion-icon name="{{item.icon}}" color="primary" item-start>  </ion-icon>
             </ion-avatar>
