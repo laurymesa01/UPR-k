@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { MenuController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-tab1',
@@ -8,14 +10,36 @@ import { MenuController } from '@ionic/angular';
 })
 export class Tab1Page {
 
-  menu = document.querySelector('.menu-O')
+  lista = [
+     {
+      name:"Telefonos",
+      icon:"call-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Directorio",
+      icon:"person-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Aula Virtual",
+      icon:"library-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Wikipedia",
+      icon:"receipt-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Noticias",
+      icon:"newspaper-outline",
+      direccion:"/telefonos"
+     }
+  ]
 
-  constructor(menuCrtl: MenuController) {}
 
-   
+  constructor(private menuCrtl: MenuController,private router:Router) { }
 
-  AbrirMenu(){
-    this.menu.classList.toggle("spread")
 
-  }
 }

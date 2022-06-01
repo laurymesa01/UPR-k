@@ -1,30 +1,42 @@
-<ion-header [translucent]="true" no-border>
-  <button (click)='AbrirMenu()'>
-    <ion-icon name="menu-outline" class="hamburger" ></ion-icon>
-  </button>
-  
+<ion-header>
+
 
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-menu side="start" menuId="first" contentId="main1">
+  <ion-menu side="start" menuId="first" contentId="main" mode="ios">
     <div class="header-menu"></div>
     <div class="header-content-menu">
-      <img src="../../assets/fotos_Uni/logo.png" alt="">
+      <img src="../../assets/fotos/logo.png" alt="">
       <ion-label>
         <h2>Servicios Universitarios</h2>
         <p>Lorem ipsumi</p>
       </ion-label>
     </div>
-
     <ion-content>
-      <ion-list>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
+      <ion-list lines="none">
+        <ng-container *ngFor="let item of lista">
+          <ion-item [routerLink]="['/telefonos']">
+            <ion-avatar slot="start">
+              <ion-icon name="{{item.icon}}" color="primary" item-start>  </ion-icon>
+            </ion-avatar>
+              {{item.name }} 
+          </ion-item >
+
+        </ng-container>
+    
       </ion-list>
     </ion-content>
   </ion-menu>
+
+  <div class="ion-page" id="main">
+
+    <ion-toolbar>
+      <ion-buttons slot="start" color="mycolor">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Inbox</ion-title>
+    </ion-toolbar>
+
+  </div>
 </ion-content>
