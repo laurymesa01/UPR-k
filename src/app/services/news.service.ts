@@ -11,7 +11,7 @@ export class NewsService {
   private contentbyType: ContentbyType = {}
   public news: Notice[][] = []
   public events: Notice[][] = []
-    public investigations:Notice[][] = []
+  public investigations: Notice[][] = []
  
 
   constructor(private http: HttpClient
@@ -26,7 +26,16 @@ export class NewsService {
   getTopHeadLinesEvent() {
     return this.http.get<Notice>('https://noticias.upr.edu.cu/wp-json/wp/v2/posts')
   }
-  
+  //mewtodo para dadp un id devolver el objeto noticia completo
+  public getNoticebyid(id: number): Observable<Notice> {
+   
+    console.log(this.news);
+    const notice= this.http.get<Notice>(`https://noticias.upr.edu.cu/wp-json/wp/v2/posts/${id}`)
+   console.log("se hizo");
+   
+  return notice
+
   
    
+  }
 }

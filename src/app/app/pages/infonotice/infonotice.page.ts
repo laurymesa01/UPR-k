@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { NewsService } from 'src/app/services/news.service';
 
 @Component({
   selector: 'app-infonotice',
@@ -7,12 +8,15 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./infonotice.page.scss'],
 })
 export class InfonoticePage implements OnInit {
-private id:any
-  constructor(private activaterouter:ActivatedRoute) { }
+  private id: number
+  
+  constructor(private activaterouter:ActivatedRoute, private newservise:NewsService) { }
 
   ngOnInit() {
-    this.id = this.activaterouter.snapshot.paramMap.get("id")
-    console.log(this.id);
+    this.id = parseInt(this.activaterouter.snapshot.paramMap.get("id"))
+
+  this.newservise.getNoticebyid(this.id);
+  
     
   }
 
