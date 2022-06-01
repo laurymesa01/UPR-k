@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-infonotice',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./infonotice.page.scss'],
 })
 export class InfonoticePage implements OnInit {
-
-  constructor() { }
+private id:any
+  constructor(private activaterouter:ActivatedRoute) { }
 
   ngOnInit() {
+    this.id = this.activaterouter.snapshot.paramMap.get("id")
+    console.log(this.id);
+    
   }
 
 }

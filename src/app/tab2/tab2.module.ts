@@ -7,9 +7,9 @@ import { Tab2Page } from './tab2.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab2PageRoutingModule } from './tab2-routing.module';
-import { NoticeComponent } from '../app/component/notice/notice/notice.component';
-import { EventComponent } from '../app/component/notice/event/event.component';
-import { InvestigationComponent } from '../app/component/notice/investigation/investigation.component';
+import { NoticeComponent } from '../app/component/tab2components/notice/notice.component';
+import { EventComponent } from '../app/component/tab2components/event/event.component';
+import { InvestigationComponent } from '../app/component/tab2components/investigation/investigation.component';
 
 
 @NgModule({
