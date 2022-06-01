@@ -24,34 +24,14 @@
            </ion-list>
         </div>
         <div class="perfil-usuario-footer">
-          <ion-list class="lista">
+          <ion-list class="lista" *ngFor="let item of items">
             <ion-item button (click)="buttonClick()" lines="none" class="button">
               <ion-label>
-                Mis notas
+                {{item}}
                 <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
               </ion-label>
             </ion-item>
-            <ion-item button (click)="buttonClick()" lines="none" class="button">
-              <ion-label>
-                <!-- <ion-icon name="mail-sharp" class="icon-start"></ion-icon> -->
-                Correo
-                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
-              </ion-label>
-            </ion-item>
-          </ion-list>
-          <ion-list class="lista">
-            <ion-item button (click)="buttonClick()" lines="none" class="button">
-              <ion-label>
-                Configuración
-                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
-              </ion-label>
-            </ion-item>
-            <ion-item button (click)="buttonClick()" lines="none" class="button">
-              <ion-label>
-                Datos y almacenamiento
-                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
-              </ion-label>
-            </ion-item>
+
           </ion-list>
         </div>
       </div>

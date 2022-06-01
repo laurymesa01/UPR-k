@@ -6,7 +6,7 @@
   <div class="login">
     <div class="form-container">
       <img src="../../assets/icon/universidad.png" alt="" class="logo">
-      <form action="/" class="form">
+      <form  class="form">
         <ion-item lines="none">
           <ion-label class="label">
             Usuario
@@ -19,7 +19,7 @@
           </ion-label>
         </ion-item>
         <ion-input type="password" placeholder="*********" class="input input-contrasena"></ion-input>
-        <ion-button class="login-button">Entrar</ion-button>
+        <ion-button class="login-button"(click)="autenticarse()">Entrar</ion-button>
       </form>
     </div>
 
