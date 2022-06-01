@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss']
-})
-export class Tab2Page {
-  lateralbar=["Noticias","Eventos","Investigacion"]
-
-  constructor() {}
-
-}
-=======
 import { OnInit } from '@angular/core';
 import { Component } from '@angular/core';
 import { Notice } from '../interfaces';
@@ -74,4 +60,3 @@ export class Tab2Page
   
 
 }
->>>>>>> 8c82aa1f381480053bc6d2e7642f6dc5c64a8a2d
