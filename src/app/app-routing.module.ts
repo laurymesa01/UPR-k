@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -16,6 +17,9 @@ const routes: Routes = [
   },{
     path: 'infonotice',
     loadChildren: () => import('./app/pages/infonotice/infonotice.module').then( m => m.InfonoticePageModule)
+  }, {
+    path: 'telefonos',
+    loadChildren: () => import('./telefonos/telefonos.module').then( m => m.TelefonosPageModule)
   }
 ];
 @NgModule({
