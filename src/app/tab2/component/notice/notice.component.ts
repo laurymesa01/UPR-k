@@ -14,12 +14,9 @@ export class NoticeComponent implements OnInit {
   ngOnInit() {
  
     if (this.newservice.news = []) {
-    this.newservice.getNews(1).subscribe(res => {
-      console.log("res====", res);
+    this.newservice.getNews(1).subscribe((res:Notice[]) => {
+      res.forEach((item)=>{    this.newservice.news.push(item);} )
 
-      res.forEach((item: Notice) => {
-        this.newservice.news.push(item);
-      });
       this.response=this.newservice.news
       console.log("se cargo el oninit");
  

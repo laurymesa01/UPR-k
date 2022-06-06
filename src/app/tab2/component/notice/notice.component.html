@@ -1,0 +1,45 @@
+<ion-grid>
+    <ion-row>
+     
+            <ion-col *ngFor="let item of response">
+                <ion-card class="ion-card" [routerLink]="['/infonotice',item.id]" mode="ios">
+                    <ion-card-header>
+                        <ion-card-title size=large class="ion-margin ion-padding-horizontal ion-margin-buttom"
+                            [innerHTML]="item.title.rendered">
+                        </ion-card-title>
+                        <ion-img [src]="item.jetpack_featured_media_url"></ion-img>
+                        <ion-card-subtitle></ion-card-subtitle>
+                    </ion-card-header>
+                    <ion-card-content>
+                        <div [innerHTML]="item.excerpt.rendered">
+
+
+
+                        </div>
+
+
+                    </ion-card-content>
+
+
+                    <!--    <ion-footer class="ionfooter-card">{{item.date}}</ion-footer> -->
+                    <ion-row>
+                        <ion-col>
+
+                        </ion-col>
+                        <ion-col>
+
+                        </ion-col>
+                        <ion-col align-self-center text-center>
+                            <ion-note>
+                                {{item.date | date:'yyyy-MM-dd '}}
+                            </ion-note>
+                        </ion-col>
+                    </ion-row>
+                </ion-card>
+
+            </ion-col>
+
+
+    </ion-row>
+
+</ion-grid>

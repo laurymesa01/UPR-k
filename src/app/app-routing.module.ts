@@ -19,7 +19,7 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },{
     path: 'infonotice/:id',
-    loadChildren: () => import('./app/pages/infonotice/infonotice.module').then( m => m.InfonoticePageModule)
+    loadChildren: () => import('./tab2/pages/infonotice/infonotice.module').then( m => m.InfonoticePageModule)
   }, {
     path: 'telefonos',
     loadChildren: () => import('./telefonos/telefonos.module').then( m => m.TelefonosPageModule)
