@@ -1,9 +1,18 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Noticia</ion-title>
-  </ion-toolbar>
-</ion-header>
+
+   
+  <ion-header>
+    
+  </ion-header>
+
 
 <ion-content>
+  <ion-title>{{notice.title.rendered}}</ion-title>
+  <ion-img [src]="notice.jetpack_featured_media_url"></ion-img>
+  <div [innerHTML]="notice.content.rendered">
+ 
+  </div>
 
 </ion-content>
+<ion-footer>
+  <ion-button [routerLink]="['/tabs/tab2']" class="button-back">X</ion-button>
+</ion-footer>
