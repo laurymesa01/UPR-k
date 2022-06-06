@@ -10,7 +10,9 @@ export class Tab3Page {
 
   constructor(private router: Router) {}
 
-  irNotas(){
+  items = ['Mis notas', 'Configuracion', 'Correo', 'Datos y almacenamiento'];
+
+  buttonClick(){
     this.router.navigate(['/notas'])
   }
 }
