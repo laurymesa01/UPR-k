@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import{ HttpClient} from '@angular/common/http'
 import { Notice as Notice,ContentbyType } from '../interfaces';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment'
 
 
 @Injectable({
@@ -9,7 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class NewsService {
   private contentbyType: ContentbyType = {}
-  public news: Notice[][] = []
+  public news: Notice[] = []
   public events: Notice[][] = []
   public investigations: Notice[][] = []
  
@@ -20,19 +21,19 @@ export class NewsService {
   
   getNews(page: number = 0): Observable<Notice[]> {
 
-    return this.http.get<Notice[]>(`https://noticias.upr.edu.cu/wp-json/wp/v2/posts?page=${page}`).pipe()
+    return this.http.get<Notice[]>(environment.noticiasUrl +`/wp-json/wp/v2/posts?page=${page}`).pipe()
 
   }
 
-  //mewtodo para dadp un id devolver el objeto noticia completo
+  /**
+   * mewtodo para dadp un id devolver el objeto noticia completo
+   */
   public getNoticebyid(id: number) {
     for (let i = 0; i < this.news.length; i++) {
-      for (let j = 0; j < this.news[i].length; j++) {
-        if (this.news[i][j].id === id) {
-          console.log(this.news[i][j]);   
-          return this.news[i][j]
-          }
-     } 
+       if (this.news[i].id === id) {
+          console.log(this.news[i]);   
+          return this.news[i]
+          } 
     }
   }
 }
