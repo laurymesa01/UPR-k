@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { PerfilService } from '../services/perfil.service';
 
 @Component({
   selector: 'app-tab3',
@@ -8,9 +9,13 @@ import { Router } from '@angular/router';
 })
 export class Tab3Page {
 
-  constructor(private router: Router) {}
+
+
+  constructor(private router: Router, private service: PerfilService) {}
 
   items = ['Mis notas', 'Configuracion', 'Correo', 'Datos y almacenamiento'];
+  usuario: Object = {}
+
 
   buttonClick(){
     this.router.navigate(['/notas'])
