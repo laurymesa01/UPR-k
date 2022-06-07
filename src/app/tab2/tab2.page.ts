@@ -29,7 +29,10 @@ export class Tab2Page
  
   }
 
-//cambiar la vista en dependencia de la barra de navegacion
+/**
+ * cambiar la vista en dependencia de la barra de navegacion
+ * 
+ */
   segmentChange(category: any) {
       this.selectedCategory=category.detail.value
  

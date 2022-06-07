@@ -1,16 +1,22 @@
 
    
   <ion-header>
-    
+  
   </ion-header>
 
 
-<ion-content>
-  <ion-title>{{notice.title.rendered}}</ion-title>
-  <ion-img [src]="notice.jetpack_featured_media_url"></ion-img>
-  <div [innerHTML]="notice.content.rendered">
- 
+<ion-content class="content">
+  <div class="container">
+<ion-title>
+  <h1>{{notice.title.rendered}}</h1>
+</ion-title>
+<ion-img [src]="notice.jetpack_featured_media_url"></ion-img>
+<div class="div-text" [innerHTML]="notice.content.rendered">
+
+</div>
+
   </div>
+ 
 
 </ion-content>
 <ion-footer>
