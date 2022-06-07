@@ -16,7 +16,7 @@
     <ion-content>
       <ion-list lines="none">
         <ng-container *ngFor="let item of lista">
-          <ion-item [routerLink]="['/telefonos']">
+          <ion-item [routerLink]="[item.direccion]">
             <ion-avatar slot="start">
               <ion-icon name="{{item.icon}}" color="primary" item-start>  </ion-icon>
             </ion-avatar>

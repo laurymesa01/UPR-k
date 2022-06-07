@@ -9,9 +9,9 @@ import { Observable } from 'rxjs';
 })
 export class NewsService {
   private contentbyType: ContentbyType = {}
-  public news: Notice[][] = []
+  public news: Notice[] = []
   public events: Notice[][] = []
-    public investigations:Notice[][] = []
+  public investigations: Notice[][] = []
  
 
   constructor(private http: HttpClient
@@ -23,10 +23,16 @@ export class NewsService {
     return this.http.get<Notice[]>(`https://noticias.upr.edu.cu/wp-json/wp/v2/posts?page=${page}`).pipe()
 
   }
-  getTopHeadLinesEvent() {
-    return this.http.get<Notice>('https://noticias.upr.edu.cu/wp-json/wp/v2/posts')
+
+  //mewtodo para dadp un id devolver el objeto noticia completo
+  public getNoticebyid(id: number) {
+    for (let i = 0; i < this.news.length; i++) {
+      if (this.news[i].id === id) {
+          console.log(this.news[i]);   
+          return this.news[i]
+          }
+    
+     
+    }
   }
-  
-  
-   
 }

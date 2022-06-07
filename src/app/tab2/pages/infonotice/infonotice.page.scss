@@ -1,0 +1,28 @@
+
+.button-back{
+    display: none;
+
+}
+@media (max-width: 750px) {
+    .button-back{
+        display: block;
+            
+    }
+}
+ion-content{
+   
+.container{
+    padding: 20px;
+}
+     ion-title{
+         margin: 20px 100px 20px 20px;
+     }
+        ion-img{
+            size: 100px;
+        }
+        .div-text{
+            margin-top: 20px;
+        }
+       
+
+ }

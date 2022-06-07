@@ -29,12 +29,12 @@ export class Tab1Page {
      {
       name:"Wikipedia",
       icon:"receipt-outline",
-      direccion:"/telefonos"
+      direccion:"/Wikipedia"
      },
      {
       name:"Noticias",
       icon:"newspaper-outline",
-      direccion:"/telefonos"
+      direccion:"/news"
      }
   ]
 

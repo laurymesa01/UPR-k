@@ -8,16 +8,15 @@ import { NewsService } from 'src/app/services/news.service';
   styleUrls: ['./notice.component.scss'],
 })
 export class NoticeComponent implements OnInit {
- public response: Notice[][] = []
+ public response: Notice[] = []
   constructor( private newservice:NewsService ) {}
 
   ngOnInit() {
  
     if (this.newservice.news = []) {
-    this.newservice.getNews(1).subscribe(res => {
-      console.log("res====", res);
+    this.newservice.getNews(1).subscribe((res:Notice[]) => {
+      res.forEach((item)=>{    this.newservice.news.push(item);} )
 
-      this.newservice.news = [res];
       this.response=this.newservice.news
       console.log("se cargo el oninit");
  
