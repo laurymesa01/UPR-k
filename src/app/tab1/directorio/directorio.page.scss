@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(11, 163, 97, 0.5) 0%, rgba(60, 186, 146, 0.5) 
+    100%),url(../../../assets/fotos/ioconUniBlanco.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    margin: 10px;
+    padding: 5px;
+
+ 
+}

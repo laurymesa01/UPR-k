@@ -20,7 +20,8 @@ const routes: Routes = [
   }, {
     path: 'telefonos',
     loadChildren: () => import('./telefonos/telefonos.module').then( m => m.TelefonosPageModule)
-  }
+  },
+
 ];
 @NgModule({
   imports: [
