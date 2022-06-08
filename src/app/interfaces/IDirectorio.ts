@@ -2,80 +2,62 @@ export interface DirectoryUser {
     status:  boolean;
     message: string;
     data:    Data;
-    op:      number;
+    op:      string;
 }
 
 export interface Data {
-    "0":          The0_Class;
-    "1":          The0_Class;
-    "2":          The0_Class;
-    "3":          The0_Class;
-    "4":          The0_Class;
-    "5":          The0_Class;
-    "6":          The0_Class;
-    "7":          The0_Class;
-    "8":          The0_Class;
-    "9":          The0_Class;
+    "0":          The0;
+    "1":          The1;
+    "2":          The1;
+    "3":          The1;
+    "4":          The1;
+    "5":          The1;
+    "6":          The1;
+    "7":          The1;
+    "8":          The1;
+    "9":          The1;
     more_results: string;
     search_state: number;
     cookie_page:  string;
     count:        number;
 }
 
-export interface The0_Class {
-    "0":                        The0_Enum;
-    "1":                        The1;
-    "2":                        The2;
-    "3":                        The3;
-    "4":                        The4;
-    "5":                        The5;
-    "6":                        The6;
-    "7":                        The7;
-    sn:                         Description;
-    description:                Description;
-    physicaldeliveryofficename: Description;
-    givenname:                  Description;
-    displayname:                Description;
-    employeenumber:             Description;
-    samaccountname:             Description;
-    mail:                       Description;
+export interface The0 {
+    "0":                        string;
+    "1":                        string;
+    "2":                        string;
+    "3":                        string;
+    sn:                         Displayname;
+    displayname:                Displayname;
+    samaccountname:             Displayname;
+    mail:                       Displayname;
     count:                      number;
     dn:                         string;
+    physicaldeliveryofficename: string[];
 }
 
-export enum The0_Enum {
-    Sn = "sn",
-}
-
-export enum The1 {
-    Description = "description",
-}
-
-export enum The2 {
-    Physicaldeliveryofficename = "physicaldeliveryofficename",
-}
-
-export enum The3 {
-    Givenname = "givenname",
-}
-
-export enum The4 {
-    Displayname = "displayname",
-}
-
-export enum The5 {
-    Employeenumber = "employeenumber",
-}
-
-export enum The6 {
-    Samaccountname = "samaccountname",
-}
-
-export enum The7 {
-    Mail = "mail",
-}
-
-export interface Description {
+export interface Displayname {
     "0":   string;
     count: number;
+}
+
+export interface The1 {
+    "0":                        string;
+    "1":                        string;
+    "2":                        string;
+    "3":                        string;
+    "4":                        string;
+    "5":                        string;
+    "6":                        string;
+    "7":                        string;
+    sn:                         Displayname;
+    description:                Displayname;
+    physicaldeliveryofficename: Displayname;
+    givenname:                  Displayname;
+    displayname:                Displayname;
+    employeenumber:             Displayname;
+    samaccountname:             Displayname;
+    mail:                       Displayname;
+    count:                      number;
+    dn:                         string;
 }

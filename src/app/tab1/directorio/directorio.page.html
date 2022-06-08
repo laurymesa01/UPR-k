@@ -1,5 +1,5 @@
 <ion-header class="header">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
@@ -7,8 +7,25 @@
   </ion-toolbar>
 
 </ion-header>
-<header>
-</header>
+
 <ion-content>
+
+  <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)"></ion-searchbar>
+  <li *ngFor= "let item of data | async">
+    
+    <ion-item >
+
+      <ion-avatar slot="start">
+        <img src="../../../assets/fotos/logo.png" alt="">
+      </ion-avatar>
+
+      <ion-label text-wrap>
+     
+        <h3>Hola Mundo</h3>
+      </ion-label>
+
+    </ion-item>
+
+  </li>
 
 </ion-content>
