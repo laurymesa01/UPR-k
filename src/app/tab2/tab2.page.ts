@@ -29,7 +29,10 @@ export class Tab2Page
  
   }
 
-//cambiar la vista en dependencia de la barra de navegacion
+/**
+ * cambiar la vista en dependencia de la barra de navegacion
+ * 
+ */
   segmentChange(category: any) {
       this.selectedCategory=category.detail.value
  
@@ -42,14 +45,16 @@ export class Tab2Page
 
       event.target.complete();
       this.page++
-    this.newservice.getNews(this.page).subscribe(res => {
-     this.newservice.news.push(res);
-      
- }
+    this.newservice.getNews(this.page).subscribe((res:Notice[]) => {
+      res.forEach((item)=>{    this.newservice.news.push(item);} )
+
+     
+ 
+    }
       
  ) 
 
-      if ( this.newservice.news[ this.newservice.news.length-1]===[]  ) {
+      if ( this.newservice.news[ this.newservice.news.length-1]==null  ) {
         event.target.disabled = true;
       }
     }, 500);

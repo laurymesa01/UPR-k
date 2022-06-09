@@ -6,7 +6,7 @@
     placeholder="Buscar" animated >
 
     </ion-searchbar>
-   
+
   </ion-toolbar>
   <ion-toolbar  mode="ios">
   <ion-grid fixed>
@@ -16,14 +16,14 @@
           <ion-segment-button *ngFor="let item of lateralbar" [value]="item">
             <ion-label  size ="6"size-lg="0,5" size-md="4" size-xs="6" class="ion-text-capitalize">{{item}}</ion-label>
           </ion-segment-button>
-  
+
         </ion-segment>
-  
-  
+
+
       </ion-col>
-  
+
     </ion-row>
-  
+
   </ion-grid>
 </ion-toolbar>
 </ion-header>
@@ -40,18 +40,18 @@
 
   </ion-header>
 
- 
+
 <app-notice  *ngIf="selectedCategory == 'Noticias'">
 
 </app-notice>
-  
- 
 
-    <app-event  *ngIf="selectedCategory == 'Investigaciones'"></app-event>
-  
 
-<ion-infinite-scroll threshold="25%" 
-position="bottom" 
+
+
+
+
+<ion-infinite-scroll threshold="25%"
+position="bottom"
 (ionInfinite)="loadData($event)">
   <ion-infinite-scroll-content loadingSpinner="bubbles"
    loadingText="Loading more data...">

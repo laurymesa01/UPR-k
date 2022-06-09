@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { PerfilService } from '../services/perfil.service';
+import { AlertController } from '@ionic/angular';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +11,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
-  constructor() { }
+  login = {
+    usuario: '',
+    contrasena: '',
+  }
+  usuario: Object = {};
+
+
+  constructor(private service: PerfilService, private router: Router, public alertController: AlertController, public toastController: ToastController) { }
 
   ngOnInit() {
   }
+
+  async autenticarse(){
+
+    console.log(this.login);
+    this.service.login(this.login.usuario, this.login.contrasena).subscribe(data => {
+      this.usuario = data
+      if(Object.entries(this.usuario).length ===1){
+        this.router.navigate(['/tabs'])
+      }
+       else{
+         console.log('no encontrado');
+
+
+       }
+    });
+
+
+}
+
+
 
 }
