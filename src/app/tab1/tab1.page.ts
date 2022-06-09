@@ -10,34 +10,6 @@ import { MenuController } from '@ionic/angular';
 })
 export class Tab1Page {
 
-  lista = [
-     {
-      name:"Telefonos",
-      icon:"call-outline",
-      direccion:"/telefonos"
-     },
-     {
-      name:"Directorio",
-      icon:"person-outline",
-      direccion:"/telefonos"
-     },
-     {
-      name:"Aula Virtual",
-      icon:"library-outline",
-      direccion:"/telefonos"
-     },
-     {
-      name:"Wikipedia",
-      icon:"receipt-outline",
-      direccion:"/Wikipedia"
-     },
-     {
-      name:"Noticias",
-      icon:"newspaper-outline",
-      direccion:"/news"
-     }
-  ]
-
 
   constructor(private menuCrtl: MenuController,private router:Router) { }
 
