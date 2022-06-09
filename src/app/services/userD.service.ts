@@ -10,16 +10,16 @@ import { DirectoryUser } from "../interfaces/IDirectorio";
 })
 
 export class UserDService {
-    private url: String = '';
+    
 
     constructor(private http: HttpClient) { }
 
     getUserD(name: String){
-      //  this.url = `http://directorio.upr.edu.cu/search?ldap_consulta%5Bsearch_display_name%5D=${name}_consulta%5Bsearch_state%5D=&ldap_consulta%5Bcookie_page%5D=&ldap_consulta%5Bop%5D=2`
-      console.log(`http://directorio.upr.edu.cu/search?ldap_consulta%5Bsearch_display_name%5D=${name}&ldap_consulta%5Bsearch_state%5D=&ldap_consulta%5Bcookie_page%5D=&ldap_consulta%5Bop%5D=2`); 
+      const url = `http://directorio.upr.edu.cu/search?ldap_consulta%5Bsearch_display_name%5D=${name}&ldap_consulta%5Bsearch_state%5D=&ldap_consulta%5Bcookie_page%5D=&ldap_consulta%5Bop%5D=2`
+      console.log(url); 
      
-      return this.http.get<Data>(`http://directorio.upr.edu.cu/search?ldap_consulta%5Bsearch_display_name%5D=${name}&ldap_consulta%5Bsearch_state%5D=&ldap_consulta%5Bcookie_page%5D=&ldap_consulta%5Bop%5D=2`)
-      .pipe(status => status['data']);
+      return this.http.get(url)
+  
        
        
     }

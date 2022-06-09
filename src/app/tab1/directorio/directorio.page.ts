@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { UserDService } from 'src/app/services/userD.service';
 import { Observable } from 'rxjs';
 import { DirectoryUser } from 'src/app/interfaces/IDirectorio';
-import { Data } from '@angular/router';
+
 import { map } from 'rxjs/operators';
+import { Data } from '@angular/router';
 
 @Component({
   selector: 'app-directorio',
@@ -12,24 +13,26 @@ import { map } from 'rxjs/operators';
 })
 
 export class DirectorioPage implements OnInit {
-  resultado: Data;
+
+  public users: Data = [];
   name: string = '';
-  data: any;
-  
+
+
 
   constructor(private service: UserDService) { }
 
-  ngOnInit() {
-    
-    
+  ngOnInit() { }
 
-  }
+  searchUser(): void {
+    this.service.getUserD(this.name)
+      .subscribe((resp: DirectoryUser) => {
 
-  searchUser():void{
- this.data = this.service.getUserD(this.name);
+        console.log(resp.data);
+        this.users = resp.data;
+      });
 
- 
- console.log(this.data);
+
+
   }
 
 }
