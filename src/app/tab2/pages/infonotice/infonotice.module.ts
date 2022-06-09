@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { InfonoticePageRoutingModule } from './infonotice-routing.module';
 
 import { InfonoticePage } from './infonotice.page';
+import { PopoverComponent } from '../../component/popover/popover.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { InfonoticePage } from './infonotice.page';
     IonicModule,
     InfonoticePageRoutingModule
   ],
-  declarations: [InfonoticePage]
+  declarations: [InfonoticePage,PopoverComponent]
 })
 export class InfonoticePageModule {}
