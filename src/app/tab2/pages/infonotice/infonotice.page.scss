@@ -1,11 +1,108 @@
-
-.button-back{
-    display: none;
-
+.content {
+    ion-header {
+        ion-toolbar {
+            background-color: #035f27;
+ion-title{
+    color:#ffffff ;
+    font-size: 25px;
+    font-weight: 1000;
+    align-self: flex-start;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+            ion-tab-button {
+                width: 10px;
+
+                background-color: #035f27;
+
+                h2 {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #ffffff;
+                    padding: 0%;
+                    font-weight: 800;
+
+                    margin: 0%;
+
+                    span {
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        padding: 0%;
+                        margin: 0%;
+
+                        font-size: 30px;
+
+                    }
+                }
+
+
+            }
+        }
+       
+    }
+    ion-card{
+        margin: 20px 20px 20px 20px;
+        border-radius: 0%;
+        box-shadow: none;
+        ion-card-header{
+           
+            ion-card-title{
+                margin: 10px 10px 10px 10px;
+                h1{
+                    margin-top: 10px;
+                        margin-bottom: 10px;
+                        font-size: 40px;
+                        font-weight: 1200;
+                        font-style: unset;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+               
+            }
+
+        }
+ ion-img { 
+      border-image-width: 5px;
+      margin: 20px 20px 20px 20px;
+       }
+      .predeterminado {
+        margin: 20px 20px 20px 20px;
+           font-size: 17px;
+        font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+         
+
+
+       }
+    }
+}
+
+ion-button .button-back{
+    text-align: center;
+    font-size: 20px;
+        font-weight: 1400px;
+        display: none;
+   
+}
+
+
 @media (max-width: 750px) {
     .button-back{
         display: block;
             
     }
 }
+
+
+   /** clases para hacer mas grande o mas chica la letra**/
+   .max-1{
+        font-size: 20px; 
+   }
+        .max-2 {
+            font-size: 25px;
+        }
+                  .max-3 {
+                      font-size: 30px;
+                  }
+
+
+        
+
+ 
