@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserDService } from 'src/app/services/userD.service';
 import { Observable } from 'rxjs';
-import { DirectoryUser } from 'src/app/interfaces/IDirectorio';
+import { DirectoryUser, Displayname } from 'src/app/interfaces/IDirectorio';
 
 import { map } from 'rxjs/operators';
 import { Data } from '@angular/router';
@@ -15,6 +15,7 @@ import { Data } from '@angular/router';
 export class DirectorioPage implements OnInit {
 
   public users: Data = [];
+  public listObj: Data = [];
   name: string = '';
 
 
@@ -27,10 +28,27 @@ export class DirectorioPage implements OnInit {
     this.service.getUserD(this.name)
       .subscribe((resp: DirectoryUser) => {
 
-        console.log(resp.data);
-        this.users = resp.data;
-      });
+        const data = resp.data;
 
+        console.log(data);
+        const list = Object.entries(data);
+
+        for (let index = 0; index < list.length ; index++) {
+          const elelment = list[index];
+          const [,b] = elelment;
+          const {displayname,mail,description,physicaldeliveryofficename}  = b;
+          console.log(displayname,mail,physicaldeliveryofficename);
+          const name = displayname[0] ;
+          const desc = description[0];
+          const email = mail[0]   ;
+          console.log(name);
+          console.log(email);
+          console.log(desc)
+          
+          
+  }
+
+});
 
 
   }

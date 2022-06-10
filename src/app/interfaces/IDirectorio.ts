@@ -1,4 +1,5 @@
 export interface DirectoryUser {
+    [x: string]: any;
     status:  boolean;
     message: string;
     data:    Data;
