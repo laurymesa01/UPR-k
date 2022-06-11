@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
-.header{
-    background-color: "mycolor";
+.class-hear{
+    height: 200px;
+    background-image: linear-gradient(135deg, #85c28f, #11723d 100%);
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 5px;
+    border-left: 5px;
+    border-bottom-style: inset;
+    
+
+ h2{
+ font-family: cursive;
+ text-align: center;
+ color: #e5ebe6;
+ padding-top: 3px;
+ }   
+
+}
+
+
+ion-searchbar{
+    background-repeat: #85c28f;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+
+}
+.class-buscador{
+  padding-left: 30px;
+  padding-right: 30px;
 }

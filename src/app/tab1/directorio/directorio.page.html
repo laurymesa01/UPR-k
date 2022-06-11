@@ -1,23 +1,18 @@
-<ion-header>
-  <div class="header">
-    <ion-toolbar translate="yes">
+<ion-header translucent>
+  <div class="class-hear">
+    <ion-toolbar color="mycolor" translate="yes">
       <ion-buttons slot="start">
-        <ion-back-button></ion-back-button>
+        <ion-back-button text=""></ion-back-button>
       </ion-buttons>
     </ion-toolbar>
-
-    <div class="buscador">
-      <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" color="mycolor"></ion-searchbar>
-    </div>
+    <label> <h2>Directorio Universitario</h2> </label>
   </div>
 </ion-header>
-
+<div class="class-buscador">
+  <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" mode="ios" placeholder="Buscar" animated>
+  </ion-searchbar>
+</div> 
 <ion-content>
-
-
-
-
-
   <div class="list">
     <ion-list>
       <ion-item *ngFor="let item of name ">
