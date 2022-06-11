@@ -10,6 +10,7 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
 
 
 import { NoticeComponent } from './component/notice/notice.component';
+import { PopoverComponent } from './component/popover/popover.component';
 
 
 
@@ -22,6 +23,6 @@ import { NoticeComponent } from './component/notice/notice.component';
    
     Tab2PageRoutingModule
   ],
-  declarations: [Tab2Page,NoticeComponent]
+  declarations: [Tab2Page,NoticeComponent,PopoverComponent]
 })
 export class Tab2PageModule {}

@@ -1,0 +1,41 @@
+<ion-header>
+  <div class="header">
+    <ion-toolbar translate="yes">
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+
+    <div class="buscador">
+      <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" color="mycolor"></ion-searchbar>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content>
+
+
+
+
+
+  <div class="list">
+    <ion-list>
+      <ion-item *ngFor="let item of name ">
+
+        <ion-avatar slot="start">
+          <img src="../../../assets/fotos/logo.png" alt="">
+        </ion-avatar>
+
+        <ion-label>
+
+          <h3>item</h3>
+
+        </ion-label>
+
+      </ion-item>
+
+    </ion-list>
+  </div>
+
+
+</ion-content>
