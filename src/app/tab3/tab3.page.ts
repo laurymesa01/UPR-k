@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { PerfilService } from '../services/perfil.service';
+import { AlertController } from '@ionic/angular';
+import { ToastController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-tab3',
@@ -9,15 +12,31 @@ import { PerfilService } from '../services/perfil.service';
 })
 export class Tab3Page {
 
-
-
-  constructor(private router: Router, private service: PerfilService) {}
-
-  items = ['Mis notas', 'Configuracion', 'Correo', 'Datos y almacenamiento'];
-  usuario: Object = {}
-
-
-  buttonClick(){
-    this.router.navigate(['/notas'])
+  login = {
+    usuario: '',
+    contrasena: '',
   }
+  usuario: Object = {};
+
+
+  constructor(private service: PerfilService, private router: Router, public alertController: AlertController, public toastController: ToastController) {}
+
+
+  async autenticarse(){
+
+    console.log(this.login);
+    this.service.login(this.login.usuario, this.login.contrasena).subscribe(data => {
+      this.usuario = data
+      if(Object.entries(this.usuario).length ===1){
+        this.router.navigate(['/perfil'])
+      }
+       else{
+         console.log('no encontrado');
+
+
+       }
+    });
+
+
+}
 }

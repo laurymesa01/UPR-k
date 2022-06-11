@@ -1,113 +1,62 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.seccion-perfil-usuario .perfil-usuario-header {
+.login{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(#81ccb9, transparent);
-  margin-bottom: 1.25rem;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
-.seccion-perfil-usuario .perfil-usuario-portada {
+.form-container{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+.logo{
+  width: 150px;
+  margin-bottom: 48px;
+  justify-self: center;
   display: block;
-  position: relative;
-  width: 90%;
-  height: 20rem;
-  background-image: url('../../assets/icon/Universidad\ de\ Pinar\ del\ Río_0.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 0 0 20px 20px;
 }
-.seccion-perfil-usuario .perfil-usuario-avatar {
+.form{
   display: flex;
-  width: 120px;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  border: 7px solid #FFFFFF;
-  background-color: #DFE5F2;
-  border-radius: 50%;
-  box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-  position: absolute;
-  bottom: -40px;
-  left: calc(50% - 90px);
-  z-index: 1;
+  flex-direction: column;
 }
-.seccion-perfil-usuario .perfil-usuario-avatar img {
-  width: 100%;
-  position: relative;
-  border-radius: 50%;
+.label{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
-.seccion-perfil-usuario .perfil-usuario-body,
-.seccion-perfil-usuario {
+.input{
+  background-color:  #F7F7F7;
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  font-size: 16px;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+.input-contrasena{
+  margin-bottom: 22px;
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
 }
-.seccion-perfil-usuario .perfil-usuario-bio{
-  justify-content: center;
-}
-.seccion-perfil-usuario .perfil-usuario-body{
-  width: 70%;
-  position: relative;
-  max-width: 750px;
-}
-
-.seccion-perfil-usuario .perfil-usuario-body .titulo {
-  display: block;
+.login-button{
+  background-color:  #ACD9B2;
+  border-radius: 8px;
+  border: none;
+  color: white;
   width: 100%;
-  font-size: 1.75em;
-  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 14px;
+  margin-bottom: 30px;
 }
-.seccion-perfil-usuario .perfil-usuario-body .correo {
-  color: #848484;
-  font-size: 0.95em;
-}
-.seccion-perfil-usuario .perfil-usuario-footer,
-.seccion-perfil-usuario .perfil-usuario-bio {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1.5rem 2rem;
-  box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-  background-color: #fff;
-  border-radius: 15px;
-  width: 100%;
-}
-.seccion-perfil-usuario .perfil-usuario-bio {
-  margin-bottom: 1.25rem;
-  text-align: center;
-}
-.seccion-perfil-usuario .lista{
-  width: 50%;
-  position: relative;
-}
-.seccion-perfil-usuario .lista ion-list {
-  padding: 5px 0;
-}
-.seccion-perfil-usuario .icono{
-  position: absolute;
-  right: 10px;
-}
-.seccion-perfil-usuario .button{
-  border-radius: 10px;
-}
-
-@media (max-width: 750px) {
-  .seccion-perfil-usuario .lista {
-      width: 100%;
+@media(max-width: 640px){
+  // .logo{
+  //     display: block;
+  // }
+  .login-button{
+     position: absolute;
+     bottom: 20px;
+     width: inherit;
   }
-
-  .seccion-perfil-usuario .perfil-usuario-portada,
-  .seccion-perfil-usuario .perfil-usuario-body {
-      width: 95%;
-  }
-
 }
-
-
-

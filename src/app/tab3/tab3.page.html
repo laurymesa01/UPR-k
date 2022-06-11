@@ -1,40 +1,29 @@
-<ion-content scroll-y="true">
-  <div class="seccion-perfil-usuario">
-    <ion-header [translucent]="true" class="perfil-usuario-header">
-      <div  class="perfil-usuario-portada">
-        <div class="perfil-usuario-avatar">
-          <img src="../../assets/icon/favicon.png" />
-        </div>
-        </div>
-      </ion-header>
+<ion-header>
 
-      <div class="perfil-usuario-body">
-        <div class="perfil-usuario-bio">
-          <ion-list>
-            <ion-item lines="none">
-              <ion-label class="titulo">
-                Laura Elena Mesa
-              </ion-label>
-            </ion-item>
-            <ion-item lines="none">
-              <ion-label class="correo">
-                lemesa17@nauta.com.cu
-              </ion-label>
-            </ion-item>
-           </ion-list>
-        </div>
-        <div class="perfil-usuario-footer">
-          <ion-list class="lista" *ngFor="let item of items">
-            <ion-item button (click)="buttonClick()" lines="none" class="button">
-              <ion-label>
-                {{item}}
-                <ion-icon name="chevron-forward-outline" class="icono"></ion-icon>
-              </ion-label>
-            </ion-item>
+</ion-header>
 
-          </ion-list>
-        </div>
-      </div>
+<ion-content>
+  <div class="login">
+    <div class="form-container">
+      <img src="../../assets/icon/favicon.png" alt="" class="logo">
+      <form (ngSubmit)="autenticarse()"  class="form" #myForm="ngForm">
+        <ion-item lines="none">
+          <ion-label class="label">
+            Usuario
+          </ion-label>
+        </ion-item>
+        <ion-input type="text" placeholder="Introduzca su usuario" class="input input-usuario" name="usuario" required #usuarioinput="ngModel" [(ngModel)]="login.usuario"></ion-input>
+        <ion-item lines="none">
+          <ion-label class="label">
+            Contaseña
+          </ion-label>
+        </ion-item>
+        <ion-input type="password" placeholder="*********" class="input input-contrasena" name="contrasena" required #contrasenainput="ngModel" [(ngModel)]="login.contrasena"></ion-input>
+        <ion-button [disabled]="myForm.invalid" type="submit"  class="login-button" >Entrar</ion-button>
+      </form>
+    </div>
+
   </div>
 
 </ion-content>
+

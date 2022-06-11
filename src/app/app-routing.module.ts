@@ -14,10 +14,7 @@ const routes: Routes = [
     path: 'notas',
     loadChildren: () => import('./notas/notas.module').then( m => m.NotasPageModule)
   },
-  {
-    path: 'login',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
-  },{
+  ,{
     path: 'infonotice/:id',
     loadChildren: () => import('./tab2/pages/infonotice/infonotice.module').then( m => m.InfonoticePageModule)
   }, {
