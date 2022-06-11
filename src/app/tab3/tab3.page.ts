@@ -28,7 +28,7 @@ export class Tab3Page {
     this.service.login(this.login.usuario, this.login.contrasena).subscribe(data => {
       this.usuario = data
       if(Object.entries(this.usuario).length ===1){
-        this.router.navigate(['/perfil'])
+        this.router.navigate(['/tabs/tab3/perfil'])
       }
        else{
          console.log('no encontrado');
