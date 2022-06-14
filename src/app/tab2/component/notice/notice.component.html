@@ -2,7 +2,7 @@
     <ion-grid>
         <ion-row>
 
-            <ion-col size="12" size-lg="3" size-md="6" size-xs="12" *ngFor="let item of response">
+            <ion-col size="12"  size-lg="4" size-sm="6" size-md="6" size-xs="12" *ngFor="let item of response">
 
                 <ion-card class="ion-card" [routerLink]="['/infonotice',item.id]" mode="ios">
                     <ion-img [src]="item.jetpack_featured_media_url"></ion-img>

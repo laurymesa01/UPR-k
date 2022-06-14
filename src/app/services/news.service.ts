@@ -77,3 +77,4 @@ export class NewsService {
     this.textcontent.classList.add(class_to_add);
   }
 }
+
