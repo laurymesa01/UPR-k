@@ -1,11 +1,11 @@
 
-   
+
 
 <ion-content class="content">
 <ion-header collapse="fade">
 <ion-toolbar color="mycolor" >
 
-<ion-icon [routerLink]="['/tabs/tab2']" size="large" slot="start" name="chevron-back"></ion-icon>
+<ion-icon [routerLink]="['/tabs/tab2']" size="large" slot="start" name="chevron-back" class="icon"></ion-icon>
 
   <ion-title class="title" >Volver a noticias</ion-title>
 
@@ -24,14 +24,17 @@
 </ion-card-title>
     </ion-card-header>
 
-<ion-img class="img" [src]="notice.jetpack_featured_media_url"></ion-img>
+    <div class="img-container">
+      <ion-img class="img" [src]="notice.jetpack_featured_media_url"></ion-img>
+    </div>
+
 <div  class="div-text predeterminado"   [innerHTML]="notice.content.rendered">
 
 
 </div>
 
   </ion-card>
- 
+
 
 </ion-content>
 <ion-footer >

@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { PerfilService } from '../services/perfil.service';
-import { AlertController } from '@ionic/angular';
-import { ToastController } from '@ionic/angular';
 
 
 @Component({
@@ -12,6 +10,7 @@ import { ToastController } from '@ionic/angular';
 })
 export class Tab3Page {
 
+
   login = {
     usuario: '',
     contrasena: '',
@@ -19,7 +18,7 @@ export class Tab3Page {
   usuario: Object = {};
 
 
-  constructor(private service: PerfilService, private router: Router, public alertController: AlertController, public toastController: ToastController) {}
+  constructor(private service: PerfilService, private router: Router) {}
 
 
   async autenticarse(){
