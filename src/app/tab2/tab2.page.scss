@@ -20,14 +20,12 @@ ion-content{
     }
 
 }
-ion-card {
-    position: relative;
-    text-align: center;
-}
 
-@media (max-max: 400px) {
+
+@media only screen and (min-width: 600px) {
     ion-title {
-            font-size: 20px;
+       
+            font-size: 40px;
             font-weight: 1000;
          
             font-style: italic;
