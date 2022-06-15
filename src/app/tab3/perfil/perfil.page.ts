@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { PerfilService } from '../../services/perfil.service';
+import { Observable } from 'rxjs';
+import { PerfilService } from 'src/app/services/perfil.service';
+
 
 @Component({
   selector: 'app-perfil',
@@ -9,12 +11,21 @@ import { PerfilService } from '../../services/perfil.service';
 })
 export class PerfilPage implements OnInit {
 
+
+ usuario : Observable<Object>;
+
   constructor(private router: Router, private service: PerfilService) { }
 
   ngOnInit() {
-  }
+    this.usuario = this.service.usuario;
+    console.log(this.usuario);
+
+}
+
+
+
   items = ['Mis notas', 'Correo', 'Configuración', 'Datos y almacenamiento'];
-  usuario: Object = {}
+
 
 
   buttonClick(){

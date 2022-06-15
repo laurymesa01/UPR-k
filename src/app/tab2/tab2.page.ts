@@ -25,7 +25,10 @@ export class Tab2Page
   
   ngOnInit() {
     this.newservice.news=[]
-     this.page=1;
+    this.page = 1;
+
+   
+   
  
   }
 
@@ -65,3 +68,5 @@ export class Tab2Page
   
 
 }
+
+

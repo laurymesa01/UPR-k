@@ -8,15 +8,17 @@ import { Observable } from 'rxjs';
 export class PerfilService {
 
   private apiUrl = 'http://localhost:5000/usuarios';
+  public usuario: Observable<Object> ;
 
   constructor(private http: HttpClient) { }
 
   login(usuario: string, contrasena: string): Observable<Object>{
-    return this.http.get<Object>(this.apiUrl, {
+    this.usuario = this.http.get<Object>(this.apiUrl, {
       params: {
         usuario: usuario,
         contrasena: contrasena,
       }
-    });
+   });
+   return this.usuario;
   }
 }
