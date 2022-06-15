@@ -1,35 +1,64 @@
 <ion-header translucent>
-  <div class="class-hear">
-    <ion-toolbar color="mycolor" translate="yes">
-      <ion-buttons slot="start">
-        <ion-back-button text=""></ion-back-button>
+  <div class="class-hear" >
+    <ion-toolbar color="mycolor" translate="yes" >
+      <ion-buttons slot="start" >
+        <ion-back-button text="" mode="ios" ></ion-back-button>
       </ion-buttons>
     </ion-toolbar>
-    <label> <h2>Directorio Universitario</h2> </label>
+    <img src="../../../assets/fotos/logo.png" alt="">
+    <ion-label>
+      <h2>Directorio Universitario</h2>
+      <p> Aqui puedes encontrar los correos de todos los correos de los estdiantes, profesores y trabajadores de la universidad</p>
+    </ion-label>
   </div>
 </ion-header>
 <div class="class-buscador">
   <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" mode="ios" placeholder="Buscar" animated>
   </ion-searchbar>
-</div> 
+</div>
 <ion-content>
   <div class="list">
     <ion-list>
-      <ion-item *ngFor="let item of name ">
-
+      <ion-item>
         <ion-avatar slot="start">
           <img src="../../../assets/fotos/logo.png" alt="">
         </ion-avatar>
-
         <ion-label>
-
-          <h3>item</h3>
-
+          <h3>Claudia Santiestban Bravo</h3>
+          <p>Facutad: Ciencias Tecnicas </p>
+          <p> Carrera: Ingenieria Informatica</p>
         </ion-label>
-
       </ion-item>
-
-    </ion-list>
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../../assets/fotos/logo.png" alt="">
+        </ion-avatar>
+        <ion-label>
+          <h3>Claudia Santiestban Bravo</h3>
+          <p>Facutad: Ciencias Tecnicas </p>
+          <p> Carrera: Ingenieria Informatica</p>
+        </ion-label>
+      </ion-item>      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../../assets/fotos/logo.png" alt="">
+        </ion-avatar>
+        <ion-label>
+          <h3>Claudia Santiestban Bravo</h3>
+          <p>Facutad: Ciencias Tecnicas </p>
+          <p> Carrera: Ingenieria Informatica</p>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../../assets/fotos/logo.png" alt="">
+        </ion-avatar>
+        <ion-label>
+          <h3>Claudia Santiestban Bravo</h3>
+          <p>Facutad: Ciencias Tecnicas </p>
+          <p> Carrera: Ingenieria Informatica</p>
+        </ion-label>
+      </ion-item>
+</ion-list>
   </div>
 
 

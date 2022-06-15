@@ -6,21 +6,45 @@
 
 .class-hear{
     height: 200px;
-    background-image: linear-gradient(135deg, #85c28f, #11723d 100%);
+    //background-image: linear-gradient(135deg, #85c28f, #11723d 100%);
+    background-color: var(--ion-color-mycolor);
+    background-color: linear-gradient(90deg, --ion-color-primary);
     background-size: cover;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
     border-right: 5px;
     border-left: 5px;
-    border-bottom-style: inset;
-    
+  
+
+ 
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 7px var(--ion-color-mycolor);
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 3px;
+    float: left;
+}
 
  h2{
- font-family: cursive;
- text-align: center;
+ font-family:'new times roman' ;
+
+ font-size: 20px;
+ font-weight: 300;
+ text-shadow: 10px;
  color: #e5ebe6;
- padding-top: 3px;
- }   
+ margin-left: 3px;
+ margin-top: 3px;
+ }  
+ p{
+    font-family: 'new times roman'; 
+     font-size: small;
+     text-align: left;
+     color: #e5ebe6;
+     padding-top: 3px;
+ } 
 
 }
 
@@ -28,12 +52,14 @@
 ion-searchbar{
     background-repeat: #85c28f;
     border-radius: 10px;
-    width: 300px;
-    height: 100px;
     align-items: center;
 
 }
 .class-buscador{
   padding-left: 30px;
   padding-right: 30px;
+}
+
+ion-list{
+    padding: 30px;
 }
