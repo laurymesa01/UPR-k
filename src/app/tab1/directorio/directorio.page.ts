@@ -14,11 +14,12 @@ import { Data } from '@angular/router';
 })
 
 export class DirectorioPage implements OnInit {
-
-  public users: Data = [];
+ 
+  public counts: any = [];
   public listObj: Data = [];
   name: string = '';
   mostrarImagen: Boolean;
+   public data :Data
 
 
   constructor(private service: UserDService) { }
@@ -29,29 +30,46 @@ export class DirectorioPage implements OnInit {
     this.service.getUserD(this.name)
       .subscribe((resp: DirectoryUser) => {
 
-        const data = resp.data;
+       this.data= resp.data;
+       this.counts=Array.from(new Array(this.data.count)).map((i, index) => index)
+       console.log(this.counts);
+       
 
-        console.log(data);
-        const list = Object.entries(data);
+        console.log(this.data);
 
-        for (let index = 0; index < list.length; index++) {
+        const list = Object.entries(this.data);
+
+        /*  for (let index = 0; index < list.length; index++) {
           const elelment = list[index];
           const [, b] = elelment;
           const { displayname, mail, description, physicaldeliveryofficename } = b;
-          console.log(displayname, mail, physicaldeliveryofficename);
-          const name = displayname[0];
-          const desc = description[0];
-          const email = mail[0];
-          console.log(name);
-          console.log(email);
-          console.log(desc)
+          // console.log(displayname, mail, physicaldeliveryofficename);
+          const name = displayname;
+          const desc = description;
+          //const email = mail;
+          console.log("name",name);
+           //console.log(email);
+           console.log("descr",desc) 
+          console.log("data", [0].displayname[0]);
 
+        }*/
 
-        }
+    /*   let i = 0;
+      this.users=[]
+      while(i<= data.count){
+        
+      const item = data[i].displayname[0];
+     
+      console.log(item);
+      
+        i++;
+      }
+       */
 
       });
 
   }
+
 
   MostrarLista() {
     this.mostrarImagen = true;
