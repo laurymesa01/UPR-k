@@ -1,0 +1,389 @@
+{
+  "nombre": "Universidad Hermanos Saiz Montes de Oca",
+  "facultades": [
+    "Ciencias Tecnicas",
+    "Ciencias Sociales y Humanidades",
+    "Ciencias Economicas",
+    "Ciencias Forestales y Agropecuarias",
+    "Cultura Fisica",
+    "educacion Media",
+    "Educacion Infantil",
+    "Centro de Idioma",
+    "Formacion Tecnico Superior"
+   ],
+   "carrerras": [
+     {
+       "nombre": "Ingenieria en Telecomunicaciones y Electronica",
+       "asignaturas": [
+
+       ]
+     },
+     {
+      "nombre": "Ingenieria Informatica",
+      "facultad": "Ciencias Tecnicas",
+      "asignaturas": [
+        {
+          "nombre": "Fundamentos de la Informatica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Apreciacion a la Cultura",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Filosofia",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Matematica Discreta 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Calculo 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a la Programacion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "nombre": "Ingenieria Geologica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Ingenieria Mecanica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Licencitura en Educacion Electrica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Licencitura en Educacion Mecanica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Licencitura en Educacion Construccion",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Licencitura en Educacion Informatica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Licencitura en Educacion Laboral",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Ingenieria Industrial",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Gestion Sociocultural para el Dessarrollo",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Derecho",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion en Lenguas Extranjeras",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Ciencias de la Informacion",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Economia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Contabilidad y Finanzas",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion en Economia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Forestal",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Agronomia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Licencitura en Educacion Agropecuaria",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Cultura Fisica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Marxismo Leninismo e Historia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Espanol-Literatura",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Matematica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Biologia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Geografia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Quimica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Fisica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion Artistica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion Especial",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion Logopedia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion Pedagogia-Psicologia",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion Preescolar",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Educacion Primaria",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Idioma Portugues",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Idioma Espanol para Extranjeros",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "Idioma Ingles Nivel B1",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCF Etrenamiento Deportivo",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Matematica para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Fisica para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Quimica para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Biologia para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Geografia para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Lengua Espanola para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEM Profesor de Historia y Educacion Moral y Ciudadana para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCT Profesor de Educacion Laboral para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCT Geologia CD",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCT Agua y Saneamiento",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEI Profesor de Educacion Artistica para Secundaria Basica",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FEI Interpretacion de la lengua de senas cubana",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCE Gestor para el desarrollo local",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCE Auditoria",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCSH Trabajo Social CD",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCFA Riego y Drenaje",
+      "asignaturas": [
+
+      ]
+    },
+    {
+      "nombre": "FCFA Medicina Veterinaria",
+      "asignaturas": [
+
+      ]
+    }
+   ]
+}
