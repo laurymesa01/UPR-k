@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
-.header{
-    background-color: "mycolor";
+
+
+ion-searchbar{
+    background-repeat: #85c28f;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.info{
+    text-align: center;
+img{
+    background-size: 10px;
+    vertical-align: text-bottom;
+}
+}
+
+.class-buscador{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.list{
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+ion-list{
+    padding: 30px;
 }

@@ -13,7 +13,27 @@ export class MenuComponent implements OnInit {
 
   lista = [
     {
-     name:"Telefonos",
+      name:"Historia",
+      icon:"refresh-circle-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Sitial de honor",
+      icon:"git-branch-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Correo",
+      icon:"newspaper-outline",
+      direccion:"/telefonos"
+     },
+     {
+      name:"Evento",
+      icon:"receipt-outline",
+      direccion:"/telefonos"
+     },
+    {
+     name:"Noticias",
      icon:"call-outline",
      direccion:"/telefonos"
     },
