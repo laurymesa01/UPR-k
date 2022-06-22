@@ -687,7 +687,27 @@
     {
       "nombre": "Ciencias de la Informacion",
       "asignaturas": [
+        {
+          "nombre": "Introduccion a los metodos y tecnicas de investigacion",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Introduccion a las Ciencias de la Informacion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Fundamentos de Organizacion de la Informacion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -699,7 +719,216 @@
     {
       "nombre": "Contabilidad y Finanzas",
       "asignaturas": [
+        {
+          "nombre": "Derecho",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Filosofia y sociedad",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia de Cuba",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Matematica Suprior 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Seguridad Nacional",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Contabilidad General 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Competencias Informacionales",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Economia Politica del Socialismo",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Financiera Gubernamental",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sistema de Costo 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Investigacion de Operaciones",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Contabilidad General 3",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Metodologia de la Investigacion",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Costo predeterminado",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Contabilidad Gubernamental ",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Control Interno y Auditoria",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Financiera Operativa",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Estrategica",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sistemas Tributarios y Auditoria Fiscal",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Marketing",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion de Proyectos para el Desarrollo Local",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion de recursos humanos",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "AP: administracion financiera del riesgo empresarial",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sistemas Automatizados de Contabilidad",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Precios",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Actualizacion Financiera",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Seminarios Especiales de Sistema Nacional de Contabilidad",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Financiera de Riesgo Empresarial",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Auditoria de Gestion",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Auditoria Asistida para la Informatica",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -711,7 +940,76 @@
     {
       "nombre": "Forestal",
       "asignaturas": [
+        {
+          "nombre": "Ingenieria Forestal 1",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Medicion Forestal",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia de Cuba",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Quimica organica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Botanica sistematica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Informatica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Matematica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Quimica Inorganica y Analitica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Botanica Estructural",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Filosofia",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -723,25 +1021,281 @@
     {
       "nombre": "Licencitura en Educacion Agropecuaria",
       "asignaturas": [
-
+        
       ]
     },
     {
       "nombre": "Cultura Fisica",
       "asignaturas": [
+        {
+          "nombre": "Morfologia de la Actividad Fisica",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Informatica y Analisis de Datos",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Futbol",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Atletismo",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gimnasia Basica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Balonmano",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Educacion Fisica Adaptada",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Histooria de la Cultura Fisica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Pedagogia de la Actividad Fisica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Recreacion",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Bioquimica de la Actividad Fisica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Laboral Investigativa",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 2 Lucha",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 2 Baloncesto",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 2 Voleivol",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte para todos",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Cultura Fisica Terapeutica",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Laboral Investigativa 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Baloncesto",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Lucha",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Tenis de mesa",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Voleivol",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Natacion",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 1: Pesas",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 1: Judo",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Marxismo Leninismo e Historia",
       "asignaturas": [
+        {
+          "nombre": "Economia Politica 1",
+          "ano": "2",
+          "palabras claves": [
 
+          ]
+        }
       ]
     },
     {
       "nombre": "Espanol-Literatura",
       "asignaturas": [
+        {
+          "nombre": "Introduccion a la especialidad",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Introduccion a los estudios literarios",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Comunicacion y texto",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a los estudios linguisticos",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura universal 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura Latinoamericana y Caribena",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "AP 2: Los siglos de oro",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gramatica espanola 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Talleres de la lectura",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Metodologia de la Investigacion Educativa 2",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Lexicologia Espanola",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
