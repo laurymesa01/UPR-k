@@ -31,6 +31,8 @@ export class DirectorioPage implements OnInit {
       .subscribe((resp: DirectoryUser) => {
 
        this.data= resp.data;
+       console.log(this.data.count);
+       
        this.counts=Array.from(new Array(this.data.count)).map((i, index) => index)
        console.log(this.counts);
        
