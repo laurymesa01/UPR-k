@@ -188,25 +188,246 @@
     {
       "nombre": "Licencitura en Educacion Electrica",
       "asignaturas": [
+        {
+          "nombre": "Propia 1: Dibujon Electrico",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Formacion economica y juridica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Taller electrico 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Propia 3: Fuentes de energia",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Licencitura en Educacion Mecanica",
       "asignaturas": [
-
+        
       ]
     },
     {
       "nombre": "Licencitura en Educacion Construccion",
       "asignaturas": [
+        {
+          "nombre": "Dibujo Basico",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Asignatura Propia Historia de la Formacion de los Obreros de la Construccion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Produccion y servicios 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Docente Sistematica 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Mecanica de suelos",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Diseno y dibujo arquitectonico",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Materiales y productos para la construccion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Docente sistematica 2",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
-      "nombre": "Licencitura en Educacion Informatica",
+      "nombre": "Licenciatura en Educacion Informatica",
       "asignaturas": [
+        {
+          "nombre": "Matematica 1",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Seguridad Nacional",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Cultura Informacional",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Integral de la Lengua Espanola 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Filosofia Marxista Leninista",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Informatica Basica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a la especialidad",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Educacion a distancia y sus herramientas",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Arquitectura",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Base de datos 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Lenguaje y tecnica de programacion",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Diseno, desarrollo y empleo de productos informaticos educativos",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Asignatura propia 4: ingles tecnico",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la informatica 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Arquitectura 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Redes informaticas",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 3: Elaboracion de materiales docentes",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Propia 7: Talleres de validacion de la propuesta investigativa",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Propia 6: La programacion en preuniversitario y su metodologia",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Aplicaciones digitales Educativas 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -1295,37 +1516,242 @@
           "palabras claves": [
 
           ]
+        },
+        {
+          "nombre": "AP 3: Temas de Literatura Latinoamericana y Caribena",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura Cubana 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gramatica espanola 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Lengua Espanola 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Literatura",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis del discurso",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Literario",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura Cubana 2",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
         }
       ]
     },
     {
       "nombre": "Matematica",
       "asignaturas": [
+        {
+          "nombre": "Informatica Educativa aplicada a la Matematica",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Fundamentos Basicos de la Matematica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Geometria 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Algebra 2",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Matematico 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Geometria 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Algebra 4",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Matematico 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 1 Tratamineto de las funciones elementales y no elenementales",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Matematica 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Fisica",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 2 la evaluacion en el proceso de ensenanza-aprendizaje de la Matematica",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Matematio 5",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Geometria 4",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Probabilidades y Estadistica 2",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Matematica 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Biologia",
       "asignaturas": [
+        {
+          "nombre": "Introduccion al estudio de la Biologia",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Genetica Ecologica 2",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Geografia",
       "asignaturas": [
+        {
+          "nombre": "Lengua Materna",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        }
       ]
     },
     {
       "nombre": "Quimica",
       "asignaturas": [
+        {
+          "nombre": "Tecnicas de seguridad",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Quimica General 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Fisica",
       "asignaturas": [
+        {
+          "nombre": "Matematica Superior 5",
+          "ano": "3",
+          "palabras claves": [
 
+          ]
+        }
       ]
     },
     {
