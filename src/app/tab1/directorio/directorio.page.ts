@@ -38,6 +38,13 @@ export class DirectorioPage implements OnInit {
         console.log(this.data);
 
         const list = Object.entries(this.data);
+        this.data.array.forEach((element, item) => {
+          if (element[item].physicaldeliveryofficename == "baja") {
+          
+          
+        }
+          
+        });
 
         /*  for (let index = 0; index < list.length; index++) {
           const elelment = list[index];
