@@ -21,26 +21,26 @@
   background-size: cover;
   border-radius: 0 0 20px 20px;
 }
-.seccion-perfil-usuario .perfil-usuario-avatar {
-  display: flex;
-  width: 120px;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  border: 7px solid var(--ion-color-mycolor-contrast);
-  background-color: var(--ion-color-mycolor-background);
-  border-radius: 50%;
-  box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-  position: absolute;
-  bottom: -40px;
-  left: calc(50% - 90px);
-  z-index: 1;
-}
-.seccion-perfil-usuario .perfil-usuario-avatar img {
-  width: 100%;
-  position: relative;
-  border-radius: 50%;
-}
+// .seccion-perfil-usuario .perfil-usuario-avatar {
+//   display: flex;
+//   width: 120px;
+//   height: 120px;
+//   align-items: center;
+//   justify-content: center;
+//   border: 7px solid var(--ion-color-mycolor-contrast);
+//   background-color: var(--ion-color-mycolor-background);
+//   border-radius: 50%;
+//   box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+//   position: absolute;
+//   bottom: -40px;
+//   left: calc(50% - 90px);
+//   z-index: 1;
+// }
+// .seccion-perfil-usuario .perfil-usuario-avatar img {
+//   width: 100%;
+//   position: relative;
+//   border-radius: 50%;
+// }
 .seccion-perfil-usuario .perfil-usuario-body,
 .seccion-perfil-usuario {
 
