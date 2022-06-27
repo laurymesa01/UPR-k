@@ -188,25 +188,246 @@
     {
       "nombre": "Licencitura en Educacion Electrica",
       "asignaturas": [
+        {
+          "nombre": "Propia 1: Dibujon Electrico",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Formacion economica y juridica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Taller electrico 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Propia 3: Fuentes de energia",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Licencitura en Educacion Mecanica",
       "asignaturas": [
-
+        
       ]
     },
     {
       "nombre": "Licencitura en Educacion Construccion",
       "asignaturas": [
+        {
+          "nombre": "Dibujo Basico",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Asignatura Propia Historia de la Formacion de los Obreros de la Construccion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Produccion y servicios 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Docente Sistematica 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Mecanica de suelos",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Diseno y dibujo arquitectonico",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Materiales y productos para la construccion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Docente sistematica 2",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
-      "nombre": "Licencitura en Educacion Informatica",
+      "nombre": "Licenciatura en Educacion Informatica",
       "asignaturas": [
+        {
+          "nombre": "Matematica 1",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Seguridad Nacional",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Cultura Informacional",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Integral de la Lengua Espanola 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Filosofia Marxista Leninista",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Informatica Basica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a la especialidad",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Educacion a distancia y sus herramientas",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Arquitectura",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Base de datos 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Lenguaje y tecnica de programacion",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Diseno, desarrollo y empleo de productos informaticos educativos",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Asignatura propia 4: ingles tecnico",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la informatica 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Arquitectura 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Redes informaticas",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 3: Elaboracion de materiales docentes",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Propia 7: Talleres de validacion de la propuesta investigativa",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Propia 6: La programacion en preuniversitario y su metodologia",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Aplicaciones digitales Educativas 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -222,27 +443,492 @@
       ]
     },
     {
-      "nombre": "Gestion Sociocultural para el Dessarrollo",
+      "nombre": "Gestion Sociocultural para el Desarrollo",
       "asignaturas": [
+        {
+          "nombre": "Panorama de la literatura y el arte universal",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Metodologia de la investigacion sociocultural 2",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion sociocultural 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Estudios de la lengua espanola",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia del pensamiento filosofico",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Psicologia general y social",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Metodologia de la investigacion sociocultural 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a la gestion sococultural",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura y teatro cubano",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Teorias del desarrollo",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Cultura cubana",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion sociocultural 3",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Estetica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Politicas sociales",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Metodologia de la investigacion sococultural 3",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion sociocultural 2",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Cultura Latinoamericana y del Caribe",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Raza y nacionalidad en Cuba",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Estudio de comunidades",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sociologia de la cultura",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Teorias de la comunicacion",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion sociocultural 5",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Antropologia sociocultural",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion sociocultural 4",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sociedad y religion",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Desarrollo y medioambiente",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia y cultura regional",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Salud y estilos de vida",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Dinamica poblacional y desarrollo",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Redaccion y comunicacion de textos cientificos",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Psicologia comunitaria",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion sociocultural 6",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Derecho",
       "asignaturas": [
+        {
+          "nombre": "Historia General del Estado y el Derecho",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Teoria General del Estado",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Penal General 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Civil Pare General",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Constitucional",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Procesal Penal",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Procesal Civil",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Administrativo",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho de Sucesiones",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Notarial",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Internacional Publico",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Ambiental",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Derecho Maritimo",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Educacion en Lenguas Extranjeras",
       "asignaturas": [
+        {
+          "nombre": "Curriculo Propio 1: Habilidades de Estudio",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Curriculo Propio 2: Estrategias de Aprendizaje y Comunicacion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a la Especialidad",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Integral de la Lengua Inglesa 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Curriculo Propio 4: Forma, significado y uso de formas verbales compuestas",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Integral de la Lengua Inglesa 3",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 2: El desarrollo de habilidades comunicativas en aleman",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Curriculo Propio 5: Escritura Academica",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 2: El desarrollo de habilidades comunicativas en frances",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 2: El desarrollo de habilidades comunicativas en portugues",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Estudios linguisticos en ingles",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de las lenguas extranjeras 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica integral de la lengua inglesa 5",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Curriculo Propio: Evaluacion del aprendizaje en ingles",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Estudios linguisticos del ingles 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia de la cultura de los pueblos de habla inglesa 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Asignatura Electiva: El desarrollo de las habilidades comunicativas en portugues",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de las lenguas extranjeras 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica integral de la lengua inglesa 6",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Ciencias de la Informacion",
       "asignaturas": [
+        {
+          "nombre": "Introduccion a los metodos y tecnicas de investigacion",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Introduccion a las Ciencias de la Informacion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Fundamentos de Organizacion de la Informacion",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -254,7 +940,216 @@
     {
       "nombre": "Contabilidad y Finanzas",
       "asignaturas": [
+        {
+          "nombre": "Derecho",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Filosofia y sociedad",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia de Cuba",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Matematica Suprior 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Seguridad Nacional",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Contabilidad General 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Competencias Informacionales",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Economia Politica del Socialismo",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Financiera Gubernamental",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sistema de Costo 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Investigacion de Operaciones",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Contabilidad General 3",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Metodologia de la Investigacion",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Costo predeterminado",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Contabilidad Gubernamental ",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Control Interno y Auditoria",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Financiera Operativa",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Estrategica",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sistemas Tributarios y Auditoria Fiscal",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Marketing",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion de Proyectos para el Desarrollo Local",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gestion de recursos humanos",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "AP: administracion financiera del riesgo empresarial",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Sistemas Automatizados de Contabilidad",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Precios",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Actualizacion Financiera",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Seminarios Especiales de Sistema Nacional de Contabilidad",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Administracion Financiera de Riesgo Empresarial",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Auditoria de Gestion",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Auditoria Asistida para la Informatica",
+          "ano": "5",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -266,7 +1161,76 @@
     {
       "nombre": "Forestal",
       "asignaturas": [
+        {
+          "nombre": "Ingenieria Forestal 1",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Medicion Forestal",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Historia de Cuba",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Quimica organica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Botanica sistematica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Informatica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Matematica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Quimica Inorganica y Analitica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Botanica Estructural",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Filosofia",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
@@ -278,55 +1242,516 @@
     {
       "nombre": "Licencitura en Educacion Agropecuaria",
       "asignaturas": [
-
+        
       ]
     },
     {
       "nombre": "Cultura Fisica",
       "asignaturas": [
+        {
+          "nombre": "Morfologia de la Actividad Fisica",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Informatica y Analisis de Datos",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Futbol",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Atletismo",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gimnasia Basica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Balonmano",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Educacion Fisica Adaptada",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Histooria de la Cultura Fisica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Pedagogia de la Actividad Fisica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Recreacion",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Bioquimica de la Actividad Fisica",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Laboral Investigativa",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 2 Lucha",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 2 Baloncesto",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 2 Voleivol",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte para todos",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Cultura Fisica Terapeutica",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Laboral Investigativa 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Baloncesto",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Lucha",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Tenis de mesa",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Voleivol",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Deporte 2 Natacion",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 1: Pesas",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Practica Deportiva 1: Judo",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Marxismo Leninismo e Historia",
       "asignaturas": [
+        {
+          "nombre": "Economia Politica 1",
+          "ano": "2",
+          "palabras claves": [
 
+          ]
+        }
       ]
     },
     {
       "nombre": "Espanol-Literatura",
       "asignaturas": [
+        {
+          "nombre": "Introduccion a la especialidad",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Introduccion a los estudios literarios",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Comunicacion y texto",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Introduccion a los estudios linguisticos",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura universal 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura Latinoamericana y Caribena",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "AP 2: Los siglos de oro",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gramatica espanola 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Talleres de la lectura",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Metodologia de la Investigacion Educativa 2",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Lexicologia Espanola",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "AP 3: Temas de Literatura Latinoamericana y Caribena",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura Cubana 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Gramatica espanola 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Lengua Espanola 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Literatura",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis del discurso",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Literario",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Literatura Cubana 2",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Matematica",
       "asignaturas": [
+        {
+          "nombre": "Informatica Educativa aplicada a la Matematica",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Fundamentos Basicos de la Matematica",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Geometria 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Algebra 2",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Matematico 1",
+          "ano": "2",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Geometria 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Algebra 4",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Matematico 3",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 1 Tratamineto de las funciones elementales y no elenementales",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Matematica 1",
+          "ano": "3",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Fisica",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Optativa 2 la evaluacion en el proceso de ensenanza-aprendizaje de la Matematica",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Analisis Matematio 5",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Geometria 4",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Probabilidades y Estadistica 2",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        },
+        {
+          "nombre": "Didactica de la Matematica 3",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Biologia",
       "asignaturas": [
+        {
+          "nombre": "Introduccion al estudio de la Biologia",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Genetica Ecologica 2",
+          "ano": "4",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Geografia",
       "asignaturas": [
+        {
+          "nombre": "Lengua Materna",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        }
       ]
     },
     {
       "nombre": "Quimica",
       "asignaturas": [
+        {
+          "nombre": "Tecnicas de seguridad",
+          "ano": "1",
+          "palabras claves": [
 
+          ]
+        },
+        {
+          "nombre": "Quimica General 1",
+          "ano": "1",
+          "palabras claves": [
+
+          ]
+        }
       ]
     },
     {
       "nombre": "Fisica",
       "asignaturas": [
+        {
+          "nombre": "Matematica Superior 5",
+          "ano": "3",
+          "palabras claves": [
 
+          ]
+        }
       ]
     },
     {
