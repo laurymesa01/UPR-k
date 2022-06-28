@@ -8,6 +8,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
+  
 }
 .logo{
   width: 150px;
@@ -54,9 +55,9 @@
   // .logo{
   //     display: block;
   // }
-  .login-button{
-     position: absolute;
-     bottom: 20px;
-     width: inherit;
-  }
+  // .login-button{
+  //    position: absolute;
+  //    bottom: 20px;
+  //    width: inherit;
+  // }
 }

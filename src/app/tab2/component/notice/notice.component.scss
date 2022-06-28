@@ -20,7 +20,7 @@ div {
             ion-card-title {
               margin-top: 10px;
               margin-bottom: 10px;
-              font-size: 25px;
+            font-size: calc(1em + 1vw);
               font-weight: 900;
               font-style: italic;
               font-family: 'Times New Roman', Times, serif;
