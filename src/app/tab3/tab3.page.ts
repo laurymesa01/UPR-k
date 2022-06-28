@@ -21,12 +21,11 @@ export class Tab3Page {
   constructor(private service: PerfilService, private router: Router) {}
 
 
-  async autenticarse(){
+   autenticarse(){
 
     console.log(this.login);
-    this.service.login(this.login.usuario, this.login.contrasena).subscribe(data => {
-      this.usuario = data
-      if(Object.entries(this.usuario).length ===1){
+    
+      if(this.service.login(this.login.usuario, this.login.contrasena)){
         this.router.navigate(['/tabs/tab3/perfil'])
       }
        else{
@@ -34,7 +33,7 @@ export class Tab3Page {
 
 
        }
-    });
+    
 
 
 }

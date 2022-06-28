@@ -1,41 +1,41 @@
-
 <ion-header translucent>
 
-    <ion-toolbar color="mycolor" >
-      <ion-buttons slot="start" >
-        <ion-back-button text="" mode="ios" ></ion-back-button>
-      </ion-buttons>
-      <ion-title mode="ios">  Directorio  </ion-title>
-    </ion-toolbar>
-   
+  <ion-toolbar color="mycolor">
+    <ion-buttons slot="start">
+      <ion-back-button text="" mode="ios"></ion-back-button>
+    </ion-buttons>
+    <ion-title mode="ios"> Directorio </ion-title>
+  </ion-toolbar>
+
 </ion-header>
 
 <ion-content>
 
   <div class="class-buscador">
-    <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" mode="ios" placeholder="Buscar" animated (click)="MostrarLista()">
+    <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" mode="ios" placeholder="Buscar" animated
+      (click)="MostrarLista()">
     </ion-searchbar>
   </div>
 
   <div *ngIf="!mostrarImagen" class="info">
-  <img src="../../../assets/fotos/Data analytics _Outline.png" alt="">
-  <h2>Busca la informacion deseada</h2>
-  <p> Aqui encontraras la informacion mas relevante de los profesores estudiantes y trabajadores</p>
+    <img src="../../../assets/fotos/Data analytics _Outline.png" alt="">
+    <h2>Busca la informacion deseada</h2>
+    <p> Aqui encontraras la informacion mas relevante de los profesores estudiantes y trabajadores</p>
   </div>
 
-  <ion-list lines="none">
-    <ng-container *ngFor="let i of counts">
-     
-      <ion-item >
-        <ion-avatar slot="start">
-          <ion-icon name="person-outline" color="primary" item-start>  </ion-icon>
-        </ion-avatar >
-         {{data[i].displayname[0]}}
+  <ion-list>
+    <ion-item *ngFor="let i of counts">
 
-         {{data[i].description[0]}}
-      </ion-item >
+      <ion-avatar slot="start">
+        <img src="../../../assets/icon/contactoazul.png" alt="" >
+      </ion-avatar>
+      <ion-label text-wrap style='margin-left:20px'>
+        <h3>{{data[i].displayname[0]}}</h3>
+        <h6>{{data[i].mail[0]}}</h6>
+        <h5>{{data[i].physicaldeliveryofficename[0]}}</h5>
+      </ion-label>
 
-    </ng-container>
+    </ion-item>
 
   </ion-list>
 

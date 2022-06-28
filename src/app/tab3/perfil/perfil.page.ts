@@ -12,12 +12,12 @@ import { PerfilService } from 'src/app/services/perfil.service';
 export class PerfilPage implements OnInit {
 
 
- usuario : Observable<Object>;
+ usuario : Object = {};
 
   constructor(private router: Router, private service: PerfilService) { }
 
   ngOnInit() {
-    this.usuario = this.service.usuario;
+     this.usuario = this.service.usuario;
     console.log(this.usuario);
 
 }
