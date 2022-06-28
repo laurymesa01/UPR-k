@@ -39,10 +39,10 @@
 
 }
 .login-button{
-  background-color:  #ACD9B2;
+  background-color:  var(--ion-color-background-login);
   border-radius: 8px;
   border: none;
-  color: white;
+  color: var(--ion-color-mycolor-contrast);
   width: 100%;
   cursor: pointer;
   font-size: 16px;

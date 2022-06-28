@@ -109,6 +109,17 @@
   }
 
 }
+@media (min-height: 875px){
+  .seccion-perfil-usuario .perfil-usuario-portada{
+    height: 25rem;
+  }
+  .seccion-perfil-usuario .perfil-usuario-footer{
+    height: 300px;
+  }
+}
 
-
-
+@media (min-height: 1200px){
+  .seccion-perfil-usuario .perfil-usuario-portada{
+    height: 40rem;
+  }
+}
