@@ -86,10 +86,11 @@
   --ion-color-mycolor-background: #DFE5F2;
   --ion-color-color: #848484;
   --ion-color-deep: #81ccb9;
+  --ion-color-background-login: #ACD9B2;
 
 }
 
-@media (prefers-color-scheme: blank) {
+@media (prefers-color-scheme: dark) {
   /*
    * Dark Colors
    * -------------------------------------------
@@ -105,6 +106,7 @@
         --ion-color-mycolor-background: #DFE5F2;
         --ion-color-color: #848484;
         --ion-color-deep: #81ccb9;
+        --ion-color-background-login: #0c3a11;
 
     --ion-color-secondary: #50c8ff;
     --ion-color-secondary-rgb: 80, 200, 255;

@@ -6,12 +6,12 @@
     "Ciencias Economicas",
     "Ciencias Forestales y Agropecuarias",
     "Cultura Fisica",
-    "educacion Media",
+    "Educacion Media",
     "Educacion Infantil",
     "Centro de Idioma",
     "Formacion Tecnico Superior"
    ],
-   "carrerras": [
+   "carreras": [
      {
        "nombre": "Ingenieria en Telecomunicaciones y Electronica",
        "asignaturas": [

@@ -3,11 +3,14 @@
         ion-toolbar {
             background-color: #035f27;
 .title{
-    color:#ffffff ;
-    font-size: 20px;
+    font-size: calc(1em + 1vw);
+        line-height: 1em;
+       
+     color:#ffffff ;
+   
     font-weight: 1000;
     align-self: flex-start;
-    font-style: italic;
+    font-style: italic; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
             ion-tab-button {
@@ -49,30 +52,41 @@
         ion-card-header{
 
             ion-card-title{
+               
                 margin: 10px 10px 10px 10px;
                 h1{
+                    font-size: calc(1em + 1vw);
+                       
                     margin-top: 10px;
                         margin-bottom: 10px;
-                        font-size: 40px;
-                        font-weight: 1200;
-                        font-style: unset;
-                    font-family: 'Times New Roman', Times, serif;
+                        
+                        font-weight: 900;
+                  
+                        font-style: italic;
+                        font-family: 'Times New Roman', Times, serif;
                 }
 
             }
 
         }
+//RESPONSIVE DE LA IMG
+                .img-container{
 
- ion-img{
-      border-image-width: 5px;
-      margin: 20px 20px 20px 20px;
-    max-width: 100%;
-        max-height: 100%;
-       }
+                    width: 96%;
+                        max-width: 960px;
+                        margin: 0 auto;
+                    .img-container .img{
+
+                        width: 100%;
+                            height: auto;
+                    }
+                }
+ 
       .predeterminado {
-        margin: 20px 20px 20px 20px;
+        margin: 25px 25px 25px 25px;
            font-size: 17px;
-        font-weight: 500;
+         
+        font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
 
 
@@ -82,9 +96,7 @@
 }
 
 .button-back{
-    // text-align: center;
-    // font-size: 20px;
-    //     font-weight: 1400px;
+    
         display: none;
 
 }
@@ -100,8 +112,8 @@
     }
 
 .img{
-  max-width: 100%;
-  max-height: 100%;
+
+ 
 }
     .title {
         color: #ffffff;
