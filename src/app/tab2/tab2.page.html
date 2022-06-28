@@ -45,9 +45,9 @@
 
 
 <app-notice  *ngIf="selectedCategory == 'Noticias'">
-
+  
 </app-notice>
-
+<app-maintenance *ngIf="selectedCategory == 'Eventos'"></app-maintenance>
 <ion-infinite-scroll (ionInfinite)="loadData($event)">
 
   <ion-infinite-scroll-content loadingSpinner="bubbles"

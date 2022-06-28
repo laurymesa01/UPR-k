@@ -11,6 +11,8 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
 
 import { NoticeComponent } from './component/notice/notice.component';
 import { PopoverComponent } from './component/popover/popover.component';
+import { MaintenanceComponent } from '../share/maintenance/maintenance.component';
+import { ShareModule } from '../share/share.module';
 
 
 
@@ -20,9 +22,10 @@ import { PopoverComponent } from './component/popover/popover.component';
     IonicModule,
     CommonModule,
     FormsModule,
+    ShareModule,
    
     Tab2PageRoutingModule
   ],
-  declarations: [Tab2Page,NoticeComponent,PopoverComponent]
+  declarations: [Tab2Page, NoticeComponent, PopoverComponent]
 })
 export class Tab2PageModule {}
