@@ -1,14 +1,6 @@
-<ion-grid>
-  <ion-row>
-    <ion-col>
-      <ion-tab-button (click)="minfont()">
-  <ion-icon size="large" name="chevron-down-circle-outline"></ion-icon>
-      </ion-tab-button>
-    </ion-col>
-    <ion-col>
-      <ion-tab-button (click)="maxfont()" >
-    <ion-icon name="chevron-up-circle-outline"></ion-icon>
-      </ion-tab-button>
-    </ion-col>
-  </ion-row>
-</ion-grid>
+<ion-range id="a" (ionChange)="changeFont($event)"  (onDidDismiss)="resetEvent($event)" min="1" max="4"  step="1"  pin="true"  snaps="true" ticks="true" color="primary">
+    <ion-label slot="start"  color="primary">A</ion-label>
+  <ion-label slot="end"  color="primary" ><h2>A</h2></ion-label >
+
+</ion-range>
+
