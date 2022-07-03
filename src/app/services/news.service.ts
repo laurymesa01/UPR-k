@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import{ HttpClient} from '@angular/common/http'
-import { Notice as Notice,ContentbyType } from '../interfaces';
+import { Notice as Notice } from '../interfaces';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 
 @Injectable({
   providedIn: 'root',
 })
 export class NewsService {
-  private contentbyType: ContentbyType = {};
   public news: Notice[] = [];
   public textcontent;
   cont: number;
@@ -19,7 +19,7 @@ export class NewsService {
 
   getNews(page: number = 0): Observable<Notice[]> {
     return this.http.get<Notice[]>(
-      `https://noticias.upr.edu.cu/wp-json/wp/v2/posts?page=${page}`
+      `${environment.noticiasUrl}/wp-json/wp/v2/posts?page=${page}`
     );
   }
 
@@ -32,7 +32,7 @@ export class NewsService {
       }
     }
   }
-  /**rduce o aumenta el tamano de la letra en pantalla de infonotice */
+  /**reduce o aumenta el tamano de la letra en pantalla de infonotice */
   public modificar(mod: boolean) {
     if (mod) {
       if (this.cont === 0) {
@@ -72,7 +72,8 @@ export class NewsService {
       }
     }
   }
-  remove_add_class(class_to_remove: string, class_to_add: string) {
+
+  private remove_add_class(class_to_remove: string, class_to_add: string) {
     this.textcontent.classList.remove(class_to_remove);
     this.textcontent.classList.add(class_to_add);
   }

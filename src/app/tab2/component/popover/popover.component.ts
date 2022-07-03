@@ -7,20 +7,18 @@ import { NewsService } from 'src/app/services/news.service';
   templateUrl: './popover.component.html',
   styleUrls: ['./popover.component.scss'],
 })
-export class PopoverComponent  {
+export class PopoverComponent {
 
-  constructor(private newservice: NewsService) {
-     
-   }
+  constructor(private newservice: NewsService) {}
 
   maxfont() {
-this.newservice.modificar(true)
- 
- }
+    this.newservice.modificar(true)
+
+  }
   minfont() {
-   this.newservice.modificar(false)
-   console.log(121212);
-   
-    
- }
+    this.newservice.modificar(false)
+    console.log(121212);
+
+
+  }
 }

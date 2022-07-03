@@ -2,7 +2,7 @@
     <ion-grid>
         <ion-row>
 
-            <ion-col size="12"  size-lg="4" size-sm="6" size-md="6" size-xs="12" *ngFor="let item of response">
+            <ion-col size="12" size-lg="4" size-sm="6" size-md="6" size-xs="12" *ngFor="let item of response">
 
                 <ion-card class="ion-card" [routerLink]="['/infonotice',item.id]" mode="ios">
                     <ion-img [src]="item.jetpack_featured_media_url"></ion-img>
@@ -15,24 +15,13 @@
                         <ion-card-subtitle></ion-card-subtitle>
                     </ion-card-header>
                     <ion-card-content>
-                        <div [innerHTML]="item.excerpt.rendered">
-
-
-
-                        </div>
+                        <div [innerHTML]="item.excerpt.rendered"></div>
                         <ion-note class="seemore">leer mas</ion-note>
-
-
                     </ion-card-content>
 
                     <ion-row>
-                        <ion-col>
-
-
-                        </ion-col>
-                        <ion-col>
-
-                        </ion-col>
+                        <ion-col></ion-col>
+                        <ion-col></ion-col>
                         <ion-col class="fecha">
                             <ion-note>
                                 {{item.date | date:'fullDate':'+0'}}
@@ -40,12 +29,8 @@
                         </ion-col>
                     </ion-row>
                 </ion-card>
-
-
             </ion-col>
-
-
+            
         </ion-row>
-
     </ion-grid>
 </div>
