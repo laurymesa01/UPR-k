@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy } from '@angular/core';
+import { ChangeDetectionStrategy, ViewChild } from '@angular/core';
 import { ChangeDetectorRef } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
@@ -18,7 +18,6 @@ export class InfonoticePage implements OnInit {
   private id: number
   private notice: Notice
 
-
   constructor(private activaterouter: ActivatedRoute,
     private newservise: NewsService,
     public popoverController: PopoverController,
@@ -32,19 +31,6 @@ export class InfonoticePage implements OnInit {
     this.newservise.textcontent = document.querySelector('.div-text')
   }
 
-  async presentPopover(ev: any) {
-    const popover = await this.popoverController.create({
-      component: PopoverComponent,
-      cssClass: 'my-custom-class',
-      event: ev,
-      mode: "ios"
 
-    });
-
-    await popover.present();
-
-    const { role } = await popover.onDidDismiss();
-    console.log('onDidDismiss resolved with role', role);
-  }
 
 }
