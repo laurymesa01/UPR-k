@@ -1,16 +1,20 @@
-<ion-tab-button (click)="presentPopover($event)" color="mycolor" slot="end">
-  <h2>A <span>A</span></h2>
-</ion-tab-button>
 
-<ion-popover #popover [isOpen]="popoverIsOpen" (didDismiss)="popoverIsOpen = false">
-  <ng-template>
-    <ion-range #ionrange id="a" (ionChange)="changeFont($event)" (onDidDismiss)="resetEvent($event)" [min]="1" [max]="4" [step]="1" [pin]="true" [snaps]="true" [ticks]="true" color="primary" [value]="cont">
-      <ion-label slot="start" color="primary">A</ion-label>
-      <ion-label slot="end" color="primary">
-        <h2>A</h2>
-      </ion-label>
+ 
+    <ion-tab-button (click)="presentPopover($event)" slot="end">
+      <h2>A <span>A</span></h2>
+    </ion-tab-button>
+    
+    <ion-popover #popover [isOpen]="popoverIsOpen" (didDismiss)="popoverIsOpen = false">
+      <ng-template>
+        <ion-range #ionrange id="a" (ionChange)="changeFont($event)" (onDidDismiss)="resetEvent($event)" [min]="1" [max]="4"
+          [step]="1" [pin]="true" [snaps]="true" [ticks]="true" color="primary" [value]="cont">
+          <ion-label slot="start" color="primary">A</ion-label>
+          <ion-label slot="end" color="primary">
+            <h2>A</h2>
+          </ion-label>
+    
+        </ion-range>
+    
+      </ng-template>
+    </ion-popover>
 
-    </ion-range>
-
-  </ng-template>
-</ion-popover>

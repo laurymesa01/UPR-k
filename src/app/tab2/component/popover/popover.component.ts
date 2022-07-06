@@ -16,12 +16,12 @@ export class PopoverComponent{
   @ViewChild('popover') popover: IonPopover;
   popoverIsOpen = false;
   
-  @ViewChild('ionrange') ionrange: IonRange;
+
   constructor(private newservice: NewsService) {
   }
 
   changeFont(e: RangeCustomEvent) {
-    console.log(this.ionrange);
+   
     
     if (e.detail.value >= this.cont) {
       this.newservice.modificar(true)
@@ -35,7 +35,7 @@ export class PopoverComponent{
   presentPopover(ev: any) {
     this.popover.event = ev;
     this.popoverIsOpen = true;
-    console.log(this.ionrange);
+  
   }
 
 }
