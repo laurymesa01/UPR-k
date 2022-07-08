@@ -17,16 +17,10 @@ export class PerfilPage implements OnInit {
   constructor(private router: Router, private service: PerfilService) { }
 
   ngOnInit() {
-     this.usuario = this.service.usuario;
-    console.log(this.usuario);
 
 }
 
-
-
-  items = ['Mis notas', 'Correo', 'Configuración', 'Datos y almacenamiento'];
-
-
+  items = ['Mis notas', 'Correo', 'Horario', 'Configuración'];
 
   buttonClick(){
     this.router.navigate(['/notas'])

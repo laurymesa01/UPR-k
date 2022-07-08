@@ -10,31 +10,24 @@ import { PerfilService } from '../services/perfil.service';
 })
 export class Tab3Page {
 
-
   login = {
     usuario: '',
     contrasena: '',
   }
   usuario: Object = {};
 
-
   constructor(private service: PerfilService, private router: Router) {}
 
-
-   autenticarse(){
-
-    console.log(this.login);
-    
-      if(this.service.login(this.login.usuario, this.login.contrasena)){
+  autenticarse(){
+    this.service.login(this.login.usuario, this.login.contrasena).subscribe(data => {
+      this.usuario = data;
+      if (Object.entries(this.usuario).length ===1) {
         this.router.navigate(['/tabs/tab3/perfil'])
-      }
-       else{
+      }else{
          console.log('no encontrado');
 
-
-       }
-    
-
-
+      }
+});
 }
+
 }

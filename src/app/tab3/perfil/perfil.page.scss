@@ -14,7 +14,7 @@
   display: block;
   position: relative;
   width: 90%;
-  height: 40rem;
+  height: 25rem;
   background-image: url('../../../assets/icon/Universidad\ de\ Pinar\ del\ Río_0.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -36,11 +36,11 @@
 //   left: calc(50% - 90px);
 //   z-index: 1;
 // }
-// .seccion-perfil-usuario .perfil-usuario-avatar img {
-//   width: 100%;
-//   position: relative;
-//   border-radius: 50%;
-// }
+.seccion-perfil-usuario .perfil-usuario-avatar img {
+  width: 100%;
+  position: relative;
+  border-radius: 50%;
+}
 .seccion-perfil-usuario .perfil-usuario-body,
 .seccion-perfil-usuario {
 
@@ -109,17 +109,6 @@
   }
 
 }
-@media (min-height: 875px){
-  .seccion-perfil-usuario .perfil-usuario-portada{
-    height: 25rem;
-  }
-  .seccion-perfil-usuario .perfil-usuario-footer{
-    height: 300px;
-  }
-}
 
-@media (min-height: 1200px){
-  .seccion-perfil-usuario .perfil-usuario-portada{
-    height: 40rem;
-  }
-}
+
+
