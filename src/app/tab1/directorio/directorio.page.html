@@ -1,15 +1,10 @@
-<<<<<<< HEAD
+<ion-header translucent="true">
 
-<ion-header  class="ion-no-border">
-=======
-<ion-header translucent>
->>>>>>> 4965796a2592483f26ad807308a85ea05a8d50d7
-
-  <ion-toolbar color="mycolor">
+  <ion-toolbar >
     <ion-buttons slot="start">
-      <ion-back-button text="" mode="ios"></ion-back-button>
+      <ion-back-button text="" ></ion-back-button>
     </ion-buttons>
-    <ion-title mode="ios"> Directorio </ion-title>
+    <ion-title > Directorio </ion-title>
   </ion-toolbar>
 
 </ion-header>
@@ -17,26 +12,26 @@
 <ion-content>
 
   <div class="class-buscador">
-    <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" mode="ios" placeholder="Buscar" animated
+    <ion-searchbar [(ngModel)]="name" (ionChange)="searchUser($event)" placeholder="Buscar" animated
       (click)="MostrarLista()">
     </ion-searchbar>
   </div>
 
   <div *ngIf="!mostrarImagen" class="info">
     <img src="../../../assets/fotos/Data analytics _Outline.png" alt="">
-    <h2>Busca la informacion deseada</h2>
-    <p> Aqui encontraras la informacion mas relevante de los profesores estudiantes y trabajadores</p>
+    <h2>Busca la información deseada</h2>
+    <p> Aquí encontrarás la información más relevante de los profesores estudiantes y trabajadores</p>
   </div>
 
   <ion-list>
     <ion-item *ngFor="let i of counts">
 
       <ion-avatar slot="start">
-        <img src="../../../assets/icon/contactoazul.png" alt="" >
+        <img src="../../../assets/icon/contactoazul.png" alt="">
       </ion-avatar>
       <ion-label text-wrap style='margin-left:20px'>
         <h3>{{data[i].displayname[0]}}</h3>
-        <h6>{{data[i].mail[0]}}</h6>
+     <!--    <h6>{{data[i].mail[0]}}</h6> -->
         <h5>{{data[i].physicaldeliveryofficename[0]}}</h5>
       </ion-label>
 

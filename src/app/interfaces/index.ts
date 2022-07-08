@@ -1,4 +1,4 @@
-
+import { RangeChangeEventDetail, RangeValue } from '@ionic/core';
 
 export interface Notice {
     id:                         number;
@@ -119,4 +119,13 @@ export interface ContentbyType{
         posts:Notice[]
     }
 
+}
+
+
+
+
+//interfaz para tipar los eventos de el ionrange
+export interface RangeCustomEvent extends CustomEvent {
+  detail: RangeChangeEventDetail;
+  target: HTMLIonRangeElement;
 }

@@ -13,13 +13,13 @@
         <ng-container *ngFor="let item of lista">
           <ion-item [routerLink]="[ item.direccion]">
             <ion-avatar slot="start">
-              <ion-icon name="{{item.icon}}" color="primary" item-start>  </ion-icon>
+              <ion-icon name="{{item.icon}}" color="primary" item-start> </ion-icon>
             </ion-avatar>
-              {{item.name }} 
-          </ion-item >
+            {{item.name }}
+          </ion-item>
 
         </ng-container>
-    
+
       </ion-list>
     </ion-content>
   </ion-menu>

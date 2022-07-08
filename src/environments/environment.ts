@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   noticiasUrl: "https://noticias.upr.edu.cu",
+  directorioUrl: "http://directorio.upr.edu.cu"
 };
 
 /*

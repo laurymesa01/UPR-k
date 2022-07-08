@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Notice } from 'src/app/interfaces';
+
 import { NewsService } from 'src/app/services/news.service';
 
 @Component({
@@ -8,25 +9,22 @@ import { NewsService } from 'src/app/services/news.service';
   styleUrls: ['./notice.component.scss'],
 })
 export class NoticeComponent implements OnInit {
- public response: Notice[] = []
-  constructor( private newservice:NewsService ) {}
+  public response: Notice[] = []
+  constructor(private newservice: NewsService) { }
 
   ngOnInit() {
- 
-    if (this.newservice.news = []) {
-    this.newservice.getNews(1).subscribe((res:Notice[]) => {
-      res.forEach((item)=>{    this.newservice.news.push(item);} )
 
-      this.response=this.newservice.news
-      console.log("se cargo el oninit");
- 
-    }
-    )
- 
-    
+    if (this.newservice.news = []) {
+      this.newservice.getNews(1).subscribe((res: Notice[]) => {
+        res.forEach((item) => { this.newservice.news.push(item); })
+
+        this.response = this.newservice.news
+        console.log("se cargo el oninit");
+
+      })
     } else {
-       this.response=this.newservice.news
-  }
+      this.response = this.newservice.news
+    }
 
   }
 
