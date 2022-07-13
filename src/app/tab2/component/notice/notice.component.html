@@ -12,9 +12,10 @@
     
                     <ion-card-content>
                         <div [innerHTML]="item.excerpt.rendered"></div>
+                        <ion-button [routerLink]="['/infonotice',item.id]" size="small" fill="clear" color="medium">Leer más</ion-button>
                         <div class="d-flex">
                             <ion-note>{{item.date | date:'fullDate':'+0'}}</ion-note>
-                            <ion-button [routerLink]="['/infonotice',item.id]" size="small" fill="clear" color="medium">Leer más</ion-button>
+                           
                         </div>
                     </ion-card-content>
                 </ion-card>

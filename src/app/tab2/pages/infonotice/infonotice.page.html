@@ -4,17 +4,28 @@
 
       <ion-icon [routerLink]="['/tabs/tab2']" size="large" slot="start" name="chevron-back" class="icon"></ion-icon>
 
-      <ion-title class="title">Volver a noticias</ion-title>
+<ion-grid>
+  <ion-row>
+    <ion-col>
 
-      <app-popover></app-popover>
+    </ion-col>
+    <ion-col>
+    
+    </ion-col>
+    <ion-col>
+    <app-popover></app-popover>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+     
 
     </ion-toolbar>
   </ion-header>
 
   <ion-card class="container">
     <ion-card-header text-center>
-      <ion-card-title>
-        <h1 [innerHTML]="notice.title.rendered"></h1>
+      <ion-card-title   [innerHTML]="notice.title.rendered">
+      
       </ion-card-title>
     </ion-card-header>
 
