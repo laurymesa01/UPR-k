@@ -1,5 +1,23 @@
-.d-flex{
-  display: flex;
+ion-grid {display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: 10px 10px 10px 10px;
+    ion-row {
+      ion-col {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        ion-card {
+            margin: 10px 10px 10px 10px;
+            min-height: 100px;
+            min-width: 100px;
+            height: 100%;}
+                        ion-note {
+                          margin-top : 20%;
+                          font-weight: 900;
+            
+                        }
+                                                ion-button{
+                                                  margin: 0%;
+                                                }
+      }
+}
 }
