@@ -30,13 +30,24 @@ export class Tab2Page
   }
 
   /**
-   * cambiar la vista en dependencia de la barra de navegacion
-   * 
+   * sirve para cambiar de vista en el ionsegment
+   *  ,el valor de el evento se guarda en la variable 
+   * selectedCategory 
+   * @param e evento
    */
-  segmentChange(category: any) {
-    this.selectedCategory = category.detail.value
+  segmentChange(e: any) {
+    this.selectedCategory = e.detail.value
   }
-
+  /**
+   * añade un settimeout de medio segundo ,
+   * aumenta la variable page para hacer una peticion hacia 
+   * la proxima pagina y lo aañade 
+   * al arreglo de noticias para su visualizacion
+   * despues condiciona la desactivacion de infinitiscroll ,
+   * si la ultima posicion de el arreglo de noticias esta vacia se desabilita
+   * 
+   * @param event evento de infinitiscroll
+   */
   loadData(event: any) {
     setTimeout(() => {
 

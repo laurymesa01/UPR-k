@@ -12,6 +12,10 @@ export class NoticeComponent implements OnInit {
   public response: Notice[] = []
   constructor(private newservice: NewsService) { }
 
+  /**
+   * inicia el componente cargando el arreglo de noticias
+   * y lo guarda en response para mostrarlo en pantalla
+   */
   ngOnInit() {
 
     if (this.newservice.news = []) {
@@ -19,13 +23,10 @@ export class NoticeComponent implements OnInit {
         res.forEach((item) => { this.newservice.news.push(item); })
 
         this.response = this.newservice.news
-        console.log("se cargo el oninit");
-
       })
     } else {
       this.response = this.newservice.news
     }
-
   }
 
 }

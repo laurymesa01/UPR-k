@@ -23,6 +23,11 @@ export class InfonoticePage implements OnInit {
     public popoverController: PopoverController,
     private cdr: ChangeDetectorRef) { }
 
+  /**
+   * al iniciar la pagina convierte el id que viene por la url en un entero,
+   * llama al metodo de obtener la noticia por id
+   * y se captura el texto para cuando se vaya a aumentar y disminuir la letra
+   */
   ngOnInit() {
     this.id = parseInt(this.activaterouter.snapshot.paramMap.get("id"))
 

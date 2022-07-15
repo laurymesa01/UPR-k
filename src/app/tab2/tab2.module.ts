@@ -16,9 +16,9 @@ import { ShareModule } from '../share/share.module';
     CommonModule,
     FormsModule,
     ShareModule,
-   
+
     Tab2PageRoutingModule
   ],
   declarations: [Tab2Page, NoticeComponent, PopoverComponent]
 })
-export class Tab2PageModule {}
+export class Tab2PageModule { }

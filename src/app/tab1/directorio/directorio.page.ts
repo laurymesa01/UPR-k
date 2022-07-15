@@ -23,28 +23,23 @@ export class DirectorioPage implements OnInit {
   constructor(private service: UserDService) { }
 
   ngOnInit() { }
-
+  /**
+   * dadoel string que esta en la barra de buscar envia un 
+   * arreglo de personas hacia la variable data,
+   * esto se ejecuta cada vez que el evento se activa
+   */
   searchUser(): void {
     this.service.getUserD(this.name)
       .subscribe((resp: DirectoryUser) => {
-
         this.data = resp.data
-        console.log(this.data[0].displayname);
-
-
-
+        console.log(resp);
         this.counts = Array.from(new Array(resp.data.count)).map((i, index) => index)
-
         const list = Object.entries(this.data);
-
-
-
-
       });
-
   }
-
-
+  /**
+   * muestra la imagen
+   */
   MostrarLista() {
     this.mostrarImagen = true;
   }
